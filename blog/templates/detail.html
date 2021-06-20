@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试用例管理平台</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>Bootstrap 实例 -Django</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container page-header">
+
+</h1>
+</div>
+<div class="container page-body">
+    <div class="col-md-9" role="main" >
+       <div class="body-main">
+           <div>
+               <h1>{{ curr_article.title }}</h1>
+               <p>{{ curr_article.content }}</p>
+           </div>
+
+       </div>
+        <div>
+            <ul class="pager">
+                <li ><a href="/get_detail_content/{{ Previous.article_id }}">上一篇：{{ Previous.title }}</a></li>
+                <li ><a href="/get_detail_content/{{ Next.article_id }}">下一篇：{{ Next.title }}</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+
+
+</body>
+</html>
+
+</body>
+</html>

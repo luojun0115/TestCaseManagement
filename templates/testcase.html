@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试用例管理平台</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+
+ <title>Bootstrap 实例 -测试用例的表格</title>
+
+ <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+ <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+    li a:hover{
+        color: yellow;
+    }
+</style>
+<body>
+
+<table class="table">
+ <h1 style="color: rebeccapurple ">百度首页-测试用例<small>---------测试版本：v3.0</small> </h1>
+   <thead>
+      <tr>
+         <th>用例编号</th>
+         <th>所属模块</th>
+         <th>优先级</th>
+         <th>测试目的</th>
+         <th>前置条件</th>
+         <th>测试步骤</th>
+         <th>预期结果</th>
+         <th>实际结果</th>
+         <th>备注</th>
+      </tr>
+   </thead>
+
+ {% for i in testcase_list %}
+       <tr>
+          <td >{{ i.t_id }}</td>
+          <td class="danger">{{ i.t_module }}</td>
+          <td class="info">{{ i.t_priority }}</td>
+          <td class="">{{ i.t_purpose }}</td>
+          <td class="">{{ i.t_precondition }}</td>
+          <td class="">{{ i.t_steps }}</td>
+          <td class="">{{i.t_expected_result  }}</td>
+          <td class="">{{ i.t_actual_result }}</td>
+          <td class="">{{ i.t_remark }}</td>
+      </tr>
+ {% endfor %}
+
+
+</table>
+<nav aria-label="Page navigation">
+  <ul class="pagination pagination-lg ">
+
+   {% if page.has_previous %}
+            <li>
+                {# 点击超链接,对上一页的页面发起访问 #}
+                    <a href="/CaseManagement/?page={{ prev_page }}" aria-label="Previous">
+                    <span aria-hidden="true">«</span>
+                </a>
+            </li>
+
+        {# 如果没有上一页 #}
+        {% else %}
+            {# 当没有上一页时,阅读bootrap文档得知,对当前li使用disabled样式 #}
+            <li class="disabled">
+                {# href="#",处于禁用状态的按钮被点击时直接跳转本页 #}
+                <a href="#" aria-label="Previous">
+                    <span aria-hidden="true">«</span>
+                </a>
+            </li>
+        {% endif %}
+
+  {% for num in page_num %}
+            {# 如果页码=当前页页码 #}
+            {% ifequal num curr_page %}
+
+                {# 被选中的页码具有高亮效果,阅读bootrap文档得知,对当前li使用active样式 #}
+                <li class="active"><a  href="/CaseManagement/?page={{ num }}" > {{ num  }}</a></li>
+            {% else %}
+                {# 非当前页页码普通显示 #}
+                <li class="select2-container--disabled"><a  href="/CaseManagement/?page={{ num }}" > {{ num  }}</a></li>
+            {% endifequal %}
+        {% endfor %}
+
+   {# 下一页按钮 #}
+        {% if page.has_next %}
+            <li>
+                {# 点击超链接,对下一页的页面发起访问 #}
+                     <a href="/CaseManagement/?page={{ next_page }}" aria-label="Next">
+                    <span aria-hidden="true">»</span>
+                </a></li>
+        {% else %}
+            {# 当没有下一页时,阅读bootrap文档得知,对当前li使用disabled样式 #}
+            <li class="disabled " >
+                {# href="#",处于禁用状态的按钮被点击时直接跳转本页 #}
+                <a href="#" aria-label="Next" >
+                    <span aria-hidden="true" style="color: gray">»</span>
+                </a></li>
+        {% endif %}
+
+  </ul>
+</nav>
+
+
+
+</body>
+
+</html>
