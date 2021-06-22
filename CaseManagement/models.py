@@ -32,8 +32,6 @@ class DB_testcase(models.Model):
     t_actual_result = models.CharField(max_length=100, verbose_name="实际结果")  # 实际结果
     # t_version_number=models.CharField(max_length=100,null=True)#测试版本  后期再使用
     t_remark = models.CharField(max_length=100, null=True, verbose_name="备注")  # 备注
-    # fk_module=models.ForeignKey(DB_module,on_delete=models.CASCADE)
-    # t_module = models.CharField(max_length=100, verbose_name="所属模块")  # 所属模块
     t_module = models.ForeignKey(DB_module, verbose_name="所属模块", on_delete=models.CASCADE)  # 所属模块
 
     class Meta:
