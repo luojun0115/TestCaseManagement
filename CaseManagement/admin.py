@@ -59,4 +59,3 @@ class TestCaseAdmin(admin.ModelAdmin):
 
 admin.site.register(DB_testcase, TestCaseAdmin)
 admin.site.register(DB_module)
-

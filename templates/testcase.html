@@ -20,7 +20,7 @@
     .btn-default:active:focus, .btn-default:active:hover {
         color: #333;
         background-color: lightseagreen;
-        border-color: #8c8c8c;
+        border-color: gold;
     }
 
     .btn {
@@ -48,11 +48,12 @@
 
             </div>
             <ul class="nav navbar-nav">
+                {#  遍历所有的模块 #}
                 {% for i in module_list %}
-                    <li class="btn-default"><a
-                            id={{ i.id }} href="/CaseManagement/?module_id={{ i.id }}">{{ i.t_module_name }}</a>
+{#                    <li class="btn-default" id="aaa">#}
+                    <li class='btn-default'>
+                        <a id={{ i.id }} href="/CaseManagement/?module_id={{ i.id }}">{{ i.t_module_name }}</a>
                     </li>
-
                 {% endfor %}
             </ul>
 
@@ -95,7 +96,7 @@
 <nav aria-label="Page navigation">
     <ul class="pagination pagination-lg ">
 
-        {% if page.has_previous %}
+        {% if page_article_list.has_previous %}
             <li>
                 {# 点击超链接,对上一页的页面发起访问 #}
                 <a href="/CaseManagement/?page={{ prev_page }}" aria-label="Previous">
@@ -147,35 +148,26 @@
 
     </ul>
 </nav>
+<script>
+    $(document).ready(function () {
+        var str = window.location.search;
+        str = str.substring(1, str.length); // 获取URL中?之后的字符（去掉第一位的问号）
+        // 以&分隔字符串，获得类似name=xiaoli这样的元素数组
+        var arr = str.split("&");
+        //var id = location.substring(location.indexOf('=') + 1,1)
+        //设置选中
+        var page = arr[0].split('=')[1];
+        $('#' + page).addClass("btn");
 
 
+    })
+
+
+</script>
 </body>
-{#<script>#}
-{#    $(document).ready(function () {#}
-{#        var str = window.location.search;#}
-{#        str = str.substring(1, str.length); // 获取URL中?之后的字符（去掉第一位的问号）#}
-{#        // 以&分隔字符串，获得类似name=xiaoli这样的元素数组#}
-{#        var arr = str.split("&");#}
-{#        //var id = location.substring(location.indexOf('=') + 1,1)#}
-{#        //设置选中#}
-{#        var page = arr[0].split('=')[1];#}
-{#        $('#' + page).addClass("btn");#}
-{##}
-{##}
-{#    })#}
-{##}
-{##}
-{#</script>#}
-{#<script>#}
-{#    $(function () {#}
-{#        $('#pagination').pagination({#}
-{#            currentPage: {{ curr_page }},#}
-{#            totalPage: {{ total_page }},#}
-{#            callback:function (current) {#}
-{#?cat_id=3&page_size=10&page_num=2#}
-{#                location.href = '/?cat_id={{ module_id }}&page_size=1&page_num='+current;#}
-{#            }#}
-{#        })#}
-{#    });#}
-{#</script>#}
+
+
+
+
+
 </html>

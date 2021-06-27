@@ -6,6 +6,7 @@ python manage.py  makemigrations
 python manage.py  migrate
 
 ## 后台管理员
+python manage.py  createsuperuser
 
 用户名：admin 密码 1qaz2wsx 
 
@@ -36,3 +37,5 @@ python manage.py  migrate
 测试开发鲜货
 
 测试开发实战课
+
+![img.png](img.png)

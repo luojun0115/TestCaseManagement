@@ -1,4 +1,5 @@
 from django.core.paginator import Paginator
+from django.http import HttpResponseBadRequest
 from django.shortcuts import render
 
 # Create your views here.
@@ -48,7 +49,8 @@ from CaseManagement.models import DB_testcase, DB_module
 
 def testcase(request):
     # 从前端拿到模块的id
-    module_id = request.GET.get('module_id', 1)
+    module_id = request.GET.get('module_id',1)
+    print(module_id)
     # 分页的时候会用到，获取页码
     page = request.GET.get('page',1)
     # 判断页码
@@ -58,13 +60,15 @@ def testcase(request):
         page = int(page)
     # 取出所有的模块
     all_module = DB_module.objects.all()
+    print(all_module)
 
     try:
         module_case = DB_module.objects.get(id=module_id)
+
     except Exception as e:
         print(e)
-        # return HttpResponseBadRequest('无此分类')
-        module_case = DB_module.objects.get(id=1)
+        return HttpResponseBadRequest('无用例')
+        # module_case = DB_module.objects.get(id=1)
     # 获取所有的测试用例
     # all_testcase = DB_testcase.objects.all()
     # 获取该模块下所有的测试用例
@@ -82,12 +86,12 @@ def testcase(request):
     else:
         prev_page = page
     # 获取总页码数
-
+    print(module_id)
     page_num = range(1, pag_num + 1)
     print(page_num)
     # return render(request, 'templates/testcase.html', context={"testcase": v_testcase})
     return render(request, 'templates/testcase.html', {
-        'page': page_article_list,
+        'page_article_list': page_article_list,
         'page_num': page_num,
         'testcase_list': page_article_list,
         'curr_page': page,
