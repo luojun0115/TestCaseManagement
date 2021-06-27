@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- 网站主语言 -->
+<html lang="zh-cn">
+<head>
+    <!-- 网站采用的字符编码 -->
+    <meta charset="utf-8">
+    <!-- 网站标题 -->
+    <title>首页</title>
+    {% load staticfiles %}
+    <!-- 引入bootstrap的css文件 -->
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <!-- 引入monikai.css -->
+    <link rel="stylesheet" href="{% static 'md_css/monokai.css' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--导入css-->
+    <link rel="stylesheet" href="{% static 'common/common.css' %}">
+    <link rel="stylesheet" href="{% static 'common/jquery.pagination.css' %}">
+    <!-- 引入vuejs -->
+    <script type="text/javascript" src="{% static 'js/vue-2.5.16.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/axios-0.18.0.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery-1.12.4.min.js' %}"></script>
+</head>
+
+<body>
+<div id="app">
+<!-- 定义导航栏 -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <div class="container">
+        <!-- 导航栏商标 -->
+        <div>
+            <a class="navbar-brand" href="">测试平台</a>
+        </div>
+        <!-- 分类 -->
+        <div class="collapse navbar-collapse">
+            <div>
+                <ul class="nav navbar-nav">
+                    {% for cat in categories %}
+                        {% if cat.id == category.id %}
+                            <li class="nav-item active">
+                                <a class="nav-link mr-2" href="/CaseManagement?cat_id={{ cat.id }}">{{ cat.title }}</a>
+                            </li>
+                        {% else %}
+                             <li class="nav-item">
+                        <a class="nav-link mr-2" href="/CaseManagement?cat_id={{ cat.id }}">{{ cat.title }}</a>
+                    </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</nav>
+
+<!-- content -->
+<div class="container">
+    <!-- 列表循环 -->
+    {% for article in articles %}
+
+    <div class="row mt-2">
+            <!-- 文章内容 -->
+            <!-- 标题图 -->
+            <div class="col-3">
+            </div>
+            <div class="col">
+                <!-- 栏目 -->
+                <a  role="button" href="#" class="btn btn-sm mb-2 btn-warning">1111{{ article.category.title }}</a>
+            <!-- 标签 -->
+                <span>
+                        <a href="#" class="badge badge-secondary">{{ article.tags }}</a>
+                </span>
+                <!-- 标题 -->
+                <h4>
+                    <b><a href="?id={{ article.id }}" style="color: black;">{{ article.title }}</a></b>
+                </h4>
+                <!-- 摘要 -->
+                <div>
+                    <p style="color: gray;">
+                        {{ article.sumary }}
+                    </p>
+                </div>
+                <!-- 注脚 -->
+                    <!-- 查看、评论、时间 -->
+            </div>
+            <hr style="width: 100%;"/>
+    </div>
+    {% endfor %}
+    <!-- 页码导航 -->
+</div>
+
+    <div class="pagenation" style="text-align: center">
+        <div id="pagination" class="page"></div>
+    </div>
+<!-- Footer -->
+<footer class="py-3 bg-dark" id="footer">
+    <div class="container">
+        <h5 class="m-0 text-center text-white">Copyright @ 我去挣钱</h5>
+    </div>
+</footer>
+</div>
+
+<!-- 引入js -->
+<script type="text/javascript" src="{% static 'js/host.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/common.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/index.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/jquery.pagination.min.js' %}"></script>
+<script type="text/javascript">
+    $(function () {
+        $('#pagination').pagination({
+            currentPage: {{ page_num }},
+            {#currentPage: 3,#}
+            {#totalPage: {{ total_page }},#}
+            totalPage: 5,
+            callback:function (current) {
+                {#?cat_id=3&page_size=10&page_num=2#}
+                location.href = '?cat_id={{ category.id }}&page_size=1&page_num='+current;
+
+            }
+        })
+    });
+</script>
+</body>
+</html>

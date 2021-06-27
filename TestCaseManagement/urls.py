@@ -22,6 +22,5 @@ from CaseManagement import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^CaseManagement/', include('CaseManagement.urls')),
-    url(r'^blog/', include('blog.urls')),
 
 ]

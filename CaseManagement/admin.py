@@ -44,7 +44,6 @@ export_model_as_csv.short_description = '测试数据导出到CSV_我去挣钱'
 
 class TestCaseAdmin(admin.ModelAdmin):
     actions = [export_model_as_csv, ]
-    # list_per_page = 2
     list_display = [
         "t_id",
         't_module',
@@ -60,3 +59,4 @@ class TestCaseAdmin(admin.ModelAdmin):
 
 admin.site.register(DB_testcase, TestCaseAdmin)
 admin.site.register(DB_module)
+
