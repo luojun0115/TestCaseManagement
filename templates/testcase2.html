@@ -110,8 +110,8 @@
         $('#pagination').pagination({
             currentPage: {{ page_num }},
             {#currentPage: 3,#}
-            {#totalPage: {{ total_page }},#}
-            totalPage: 5,
+            totalPage: {{ total_page }},
+            {#totalPage: 5,#}
             callback:function (current) {
                 {#?cat_id=3&page_size=10&page_num=2#}
                 location.href = '?cat_id={{ category.id }}&page_size=1&page_num='+current;

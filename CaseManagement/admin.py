@@ -6,7 +6,7 @@ from django.contrib import admin
 # Register your models here.
 from django.http import HttpResponse
 
-from CaseManagement.models import DB_testcase, DB_module
+from CaseManagement.models import DB_testcase, DB_module,Article,ArticleCategory
 
 exportable_fields = (
     "t_id",
@@ -59,3 +59,7 @@ class TestCaseAdmin(admin.ModelAdmin):
 
 admin.site.register(DB_testcase, TestCaseAdmin)
 admin.site.register(DB_module)
+admin.site.register(Article)
+admin.site.register(ArticleCategory)
+
+
