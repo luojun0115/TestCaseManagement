@@ -26,6 +26,8 @@ python manage.py  createsuperuser
 
 ## 关注其它博主微信公众号
 
+测试开发实战课
+
 测试开发干货
 
 测试开发水货
@@ -36,6 +38,6 @@ python manage.py  createsuperuser
 
 测试开发鲜货
 
-测试开发实战课
+测试开发萌货
 
 ![img.png](img.png)
