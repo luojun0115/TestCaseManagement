@@ -50,9 +50,9 @@
             <ul class="nav navbar-nav">
                 {#  遍历所有的模块 #}
                 {% for i in module_list %}
-{#                    <li class="btn-default" id="aaa">#}
+                    {#                    <li class="btn-default" id="aaa">#}
                     <li class='btn-default'>
-                        <a id={{ i.id }} href="/CaseManagement/?module_id={{ i.id }}">{{ i.t_module_name }}</a>
+                        <a id={{ i.id }} href="/testcase1?module_id={{ i.id }}">{{ i.t_module_name }}</a>
                     </li>
                 {% endfor %}
             </ul>
@@ -61,6 +61,13 @@
         </div>
     </div>
 </nav>
+
+<form action="/upload_file/" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="file">
+        <input type="submit" value="上传">
+</form>
+<br><br>
 <table class="table">
 
     <thead>
@@ -99,7 +106,7 @@
         {% if page_article_list.has_previous %}
             <li>
                 {# 点击超链接,对上一页的页面发起访问 #}
-                <a href="/CaseManagement/?page={{ prev_page }}" aria-label="Previous">
+                <a href="/testcase1?page={{ prev_page }}" aria-label="Previous">
                     <span aria-hidden="true">«</span>
                 </a>
             </li>
@@ -121,12 +128,12 @@
             {% ifequal num curr_page %}
 
                 {#                 被选中的页码具有高亮效果,阅读bootrap文档得知,对当前li使用active样式#}
-                <li class="active"><a href="/CaseManagement/?module_id={{ module_id }}&page={{ num }}"> {{ num }}</a>
+                <li class="active"><a href="/testcase1?module_id={{ module_id }}&page={{ num }}"> {{ num }}</a>
                 </li>
             {% else %}
                 {#                 非当前页页码普通显示#}
                 <li class="select2-container--disabled"><a
-                        href="/CaseManagement/?module_id={{ module_id }}&page={{ num }}"> {{ num }}</a></li>
+                        href="/testcase1?module_id={{ module_id }}&page={{ num }}"> {{ num }}</a></li>
             {% endifequal %}
         {% endfor %}
 
@@ -134,7 +141,7 @@
         {% if page.has_next %}
             <li>
                 {#                 点击超链接,对下一页的页面发起访问#}
-                <a href="/CaseManagement/?module_id={{ module_id }}page={{ next_page }}" aria-label="Next">
+                <a href="/testcase1?module_id={{ module_id }}page={{ next_page }}" aria-label="Next">
                     <span aria-hidden="true">»</span>
                 </a></li>
         {% else %}
@@ -165,9 +172,6 @@
 
 </script>
 </body>
-
-
-
 
 
 </html>
