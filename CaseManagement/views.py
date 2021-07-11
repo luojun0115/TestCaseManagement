@@ -1,17 +1,40 @@
 # -*- coding: utf-8 -*-
 import csv
+import json
 import os
 import time
 
 from django.core.paginator import Paginator
-from django.http import HttpResponseBadRequest, HttpResponseNotFound, HttpResponse
+from django.http import HttpResponseBadRequest, HttpResponseNotFound, HttpResponse, JsonResponse
 from django.shortcuts import render, redirect
 
 # Create your views here.
+from django.views.decorators.csrf import csrf_exempt
+
 from CaseManagement.models import DB_testcase, DB_module, Article, ArticleCategory
 from TestCaseManagement.settings import logger
 
 
+# 模块添加
+@csrf_exempt
+def model_one_add(request):
+    t_module_name = request.POST['t_module_name']
+    if t_module_name != '':
+
+        try:
+            DB_module.objects.create(t_module_name=t_module_name)
+            logger.info('====添加模块的名称：%s===' % t_module_name)
+
+        except Exception as e:
+
+            logger.info('====添加名称出错：%s===' % t_module_name)
+    else:
+        logger.info('====非法的输入：%s===' % t_module_name)
+        return HttpResponse('非法的输入')
+    return HttpResponse('')
+
+
+# 上传文件
 def upload_file(request):
     # 首先判断文件请求类型
     if str(request.method).upper() == 'GET':
@@ -19,8 +42,13 @@ def upload_file(request):
         return render(request, 'templates/testcase.html')
 
     elif str(request.method).upper() == 'POST':
-        file_obj = request.FILES.get('file')
-        logger.info('上传文件file:%s' % file_obj.name)
+        try:
+            file_obj = request.FILES.get('file')
+            logger.info('上传文件file:%s' % file_obj.name)
+        except Exception as e:
+            logger.info('上传文件为空')
+            # return HttpResponseBadRequest('未上传任何文件')
+            return redirect('/testcase1')
         file_name_old = file_obj.name
         # 拼接一下文件名称，避免重复
         file_name_new = file_name_old.split('.')[0] + time.strftime('%Y%m%d-%H%M%S') + "." + file_name_old.split('.')[1]
@@ -130,7 +158,7 @@ def testcase1(request):
     # all_testcase = DB_testcase.objects.all()
     # 获取该模块下所有的测试用例
     all_testcase_module = DB_testcase.objects.filter(t_module=module_case)
-    paginator = Paginator(all_testcase_module, 3)
+    paginator = Paginator(all_testcase_module, 10)
     page_article_list = paginator.page(page)
     pag_num = paginator.num_pages
     # 判断是否存在下一页

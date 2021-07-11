@@ -40,4 +40,6 @@ python manage.py  createsuperuser
 
 测试开发萌货
 
+测试开发囤货
+
 ![img.png](img.png)
