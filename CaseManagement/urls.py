@@ -12,4 +12,5 @@ urlpatterns = [
     url(r'testcase3/', views.testcase3),
     url(r'upload_file/', views.upload_file),  # 上传测试用例
     url(r'model_one_add/', views.model_one_add),  # 添加模块
+    url(r'module_del/', views.module_del),  # 删除模块
 ]

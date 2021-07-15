@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+    <style type="text/css">
+
+			.black_overlay {
+				display: none;
+				/* 此元素不会被显示*/
+				position: absolute;
+				top: 0%;
+				left: 0%;
+				width: 100%;
+				height: 100%;
+				background-color: #bbbbbb;
+				z-index: 1001;
+				/* z-index 属性设置元素的堆叠顺序。*/
+				opacity: .80;
+				/* opacity 属性设置元素的不透明级别。*/
+			}
+
+			.white_content {
+				display: none;
+				position: absolute;
+				top: 20%;
+				border: 1px solid #bbbbbb;
+				/* border-radius: 20px; */
+				background-color: white;
+				z-index: 1002;
+				/*层级要比.black_overlay高，这样才能显示在它前面*/
+				overflow: auto;
+			}
+
+			#light {
+				position: absolute;
+				left: 50%;
+        transform: translateX(-50%);
+				/* top: 50%; */
+				width: 400px;
+				height: 200px;
+				/* margin-top: -125px */;
+			}
+
+			#form_submit {
+				text-align: center;
+				/* margin-left: 10px; */
+				/* margin-top: 30px; */
+        height: 100px;
+        padding-top: 30px;
+        box-sizing: border-box
+			}
+
+		#font_login {
+				font-weight: 400;
+				font-size: 24px;
+				color: #BBBBBB;
+				text-align: left;
+        padding-left: 20px;
+				/* margin-top: 20px; */
+        background-color: #4ECDC4;
+        height: 50px;
+        line-height: 50px;
+			}
+      .btn{
+        height: 50px;
+        position: absolute;
+        right: 20px;
+      }
+			.button_beautiful {
+				width: 60px;
+				height: 34px;
+				/* 高度 */
+				border-width: 0px;
+				border-radius: 6px;
+				background: #4ECDC4;
+				cursor: pointer;
+				outline: none;
+				color: white;
+				font-size: 16px;
+				/* margin-top: 50px; */
+			}
+		</style>
+	</head>
+	<body>
+		<p>示例弹出页：
+			<a href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">
+				请点这里
+			</a>
+		</p>
+		<div id="light" class="white_content">
+			<div id="font_login">Login in</div>
+			<!-- 登陆部分代码 -->
+			<form action="" method="post" id="form_submit">
+		账号：<input type="file" name="" id="name" value="" /></br>
+        密码：<input type="submit" name="" id="password" value="提交" /></br>
+      </form>
+      <div class="btn">
+        <input type="button" value="确认" class="button_beautiful ceshi" /> <!-- 不要点击 -->
+				<input type="button" value="取消" class="button_beautiful" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'" />
+      </div>
+		</div>
+		<div id="fade" class="black_overlay"></div>
+	</body>
+</html>

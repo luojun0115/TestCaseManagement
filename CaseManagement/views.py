@@ -15,6 +15,29 @@ from CaseManagement.models import DB_testcase, DB_module, Article, ArticleCatego
 from TestCaseManagement.settings import logger
 
 
+# 模块删除
+@csrf_exempt
+def module_del(request):
+    del_module_name = request.POST['del_module_name']
+    print(del_module_name)
+    module = DB_module.objects.get(t_module_name=del_module_name)
+    logger.info('====删除模块的名称为：%s===' % module)
+    if module != '':
+        try:
+            case = DB_testcase.objects.filter(t_module=module.id)
+            if case:
+                case.delete()
+                logger.info('====删除模块的id为：%s，删除用例成功===' % module.id)
+            # 最后删除掉模块名称
+            DB_module.objects.get(t_module_name=module).delete()
+            logger.info('====删除模块的名称为：%s，删除模块成功' % module)
+            return redirect('/testcase1/')
+        except Exception as e:
+            logger.info('====删除%s模块的用例失败===' % module.id)
+
+    return redirect('/testcase1/')
+
+
 # 模块添加
 @csrf_exempt
 def model_one_add(request):
@@ -31,7 +54,7 @@ def model_one_add(request):
     else:
         logger.info('====非法的输入：%s===' % t_module_name)
         return HttpResponse('非法的输入')
-    return HttpResponse('')
+    return HttpResponse('/testcase1/')
 
 
 # 上传文件
@@ -132,7 +155,6 @@ def testcase2(request):
 
 
 def testcase1(request):
-    #
     module_id = request.GET.get('module_id', 1)
     # print(module_id)
     logger.info('从前端拿到模块的module_id为：%s' % module_id)
@@ -158,7 +180,7 @@ def testcase1(request):
     # all_testcase = DB_testcase.objects.all()
     # 获取该模块下所有的测试用例
     all_testcase_module = DB_testcase.objects.filter(t_module=module_case)
-    paginator = Paginator(all_testcase_module, 10)
+    paginator = Paginator(all_testcase_module, 15)
     page_article_list = paginator.page(page)
     pag_num = paginator.num_pages
     # 判断是否存在下一页

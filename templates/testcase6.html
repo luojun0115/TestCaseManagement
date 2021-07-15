@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 测试用例管理系统</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+    .btn-default:active:focus, .btn-default:active:hover {
+        color: #333;
+        background-color: lightseagreen;
+        border-color: gold;
+    }
+
+    .btn {
+        background: lightcoral;
+
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+</style>
+<body>
+
+
+<div class="panel panel-primary">
+    <!-- 导航栏 -->
+    <div class="panel-heading">
+        <h3 class="panel-title">测试用例管理系统</h3>
+    </div>
+
+    <div class="panel-body form-inline">
+        <!-- 模块遍历 -->
+        {% for i in module_list %}
+
+            <button type="button" class="btn btn-info" style="color: #00F7DE">
+
+                <a id={{ i.id }} href="/testcase1?module_id={{ i.id }}">{{ i.t_module_name }}</a>
+            </button>
+        {% endfor %}
+        <!-- 常用功能 -->
+        <div class="input-group">
+            <div class="input-group-addon">搜索</div>
+            <input type="text" class="form-control" id="exampleInputAmount" placeholder="请输入用例名称">
+        </div>
+
+        <!-- 添加模块 -->
+        <button id="btnAddModule" class="btn btn-primary btn-info"
+                onclick="javascript:document.getElementById('add_Module_div').style.display='block'">添加模块
+        </button>
+        <div id="add_Module_div" style="width: 30%;background-color: white;border: 1px solid black;
+        position: absolute;left: 50%;top: 55px;padding-left: 10px;box-shadow: 4px 4px 8px grey;border-radius: 5px;
+         z-index: 999999; display: none">
+            <h3 style="text-align: center">添加模块</h3>
+            <div class="input-group">
+                <div class="input-group-addon" style="margin:0 auto">模块名称</div>
+                  {% csrf_token %}
+                <input type="text" class="form-control" id="t_module_name" placeholder="请输入模块名称">
+            </div>
+            <br><br>
+            <!--因为取消按钮要执行的js语句只有一句，我们可以偷懒直接写在onclick属性中，而不需要先写个js函数，然后onclick再调用这个函数-->
+            <!--然后我们要给这个弹层的确定按钮，加上onclick属性，来调用这个btnAddModule()函数-->
+            <div style=" position: relative;left: 70%;top:30px;">
+                <button onclick="javascript:document.getElementById('add_Module_div').style.display='none'"
+                        class="btn btn-danger">取消
+                </button>
+                <button onclick="btnAddModule()" class="btn btn-success">确定</button>
+            </div>
+            <br> <br>
+        </div>
+
+        <!-- 删除模块 -->
+{#        <button id="btnDelModule" class="btn btn-primary btn-info">删除模块</button>#}
+        <!-- 添加用例 -->
+{#        <button id="btnAddCase" class="btn btn-primary btn-info">添加用例</button>#}
+        <!-- 用例上传 -->
+        <button id="btnCaseimport" class="btn btn-primary" onclick="javascript:document.getElementById('file-import').style.display='block'">用例上传</button>
+        <!-- 用例导出 -->
+        <button id="btnCaseexport" class="btn btn-primary">用例导出</button>
+{#        <div style="display:none">#}
+
+{#        <input type="text">#}
+{#        <button type="button"  class="btn btn-info" onclick="F_Open_dialog()">选择文件</button>#}
+        </div>
+
+     </button>
+<form action="/upload_file/" id='file-import' method="post" enctype="multipart/form-data" style="width: 35%;background-color: white;border: 1px solid black;
+        position: absolute;left: 50%;top: 100px;padding-left: 10px;box-shadow: 4px 4px 8px grey;border-radius: 5px;
+         z-index: 999999; display: none ;line-height: 50px;border-top: 36px;">
+     <h3 style="text-align: center">上传文件</h3>
+        {% csrf_token %}
+        <div>
+        <input type="file" name="file"  id="reportXML">
+        <input type="submit" onclick="submitFile()" class="default btn-info"  value="上传">
+        </div>
+     <div style=" position: relative;left: 70%;top:-5px;">
+     <button onclick="javascript:document.getElementById('file-import').style.display='none'" class="btn btn-danger">取消
+     </button>
+     </div>
+</form>
+
+
+    </div>
+
+
+</div>
+
+<!-- 表单部分 -->
+<table class="table  table-bordered table-hover">
+    <thead>
+    <tr>
+    <tr>
+        <th>用例编号</th>
+        <th>所属模块</th>
+        <th>优先级</th>
+        <th>测试目的</th>
+        <th>前置条件</th>
+        <th>测试步骤</th>
+        <th>预期结果</th>
+        <th>实际结果</th>
+        <th>备注</th>
+    </tr>
+    </tr>
+    </thead>
+    <tbody>
+    {% for i in testcase_list %}
+        <tr>
+            <td>{{ i.t_id }}</td>
+            <td class="danger">{{ i.t_module }}</td>
+            <td class="info">{{ i.t_priority }}</td>
+            <td class="errors">{{ i.t_purpose }}</td>
+            <td class="">{{ i.t_precondition }}</td>
+            <td class="">{{ i.t_steps }}</td>
+            <td class="">{{ i.t_expected_result }}</td>
+            <td class="">{{ i.t_actual_result }}</td>
+            <td class="">{{ i.t_remark }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+<!-- 底部：分页区 -->
+<nav aria-label="Page navigation" class="navbar navbar-default navbar-fixed-bottom ">
+    <ul class="pagination pagination-lg ">
+        {% if page_article_list.has_previous %}
+            <li>
+                {# 点击超链接,对上一页的页面发起访问 #}
+                <a href="/testcase1?page={{ prev_page }}" aria-label="Previous">
+                    <span aria-hidden="true">«</span>
+                </a>
+            </li>
+            {# 如果没有上一页 #}
+        {% else %}
+            {# 当没有上一页时,阅读bootrap文档得知,对当前li使用disabled样式 #}
+            <li class="disabled">
+                {# href="#",处于禁用状态的按钮被点击时直接跳转本页 #}
+                <a href="#" aria-label="Previous">
+                    <span aria-hidden="true">«</span>
+                </a>
+            </li>
+        {% endif %}
+
+        {% for num in page_num %}
+            {#             如果页码=当前页页码#}
+            {% ifequal num curr_page %}
+                {#                 被选中的页码具有高亮效果,阅读bootrap文档得知,对当前li使用active样式#}
+                <li class="active"><a href="/testcase1?module_id={{ module_id }}&page={{ num }}"> {{ num }}</a>
+                </li>
+            {% else %}
+                {#                 非当前页页码普通显示#}
+                <li class="select2-container--disabled"><a
+                        href="/testcase1?module_id={{ module_id }}&page={{ num }}"> {{ num }}</a></li>
+            {% endifequal %}
+        {% endfor %}
+
+        {#         下一页按钮#}
+        {% if page.has_next %}
+            <li>
+                {#                 点击超链接,对下一页的页面发起访问#}
+                <a href="/testcase1?module_id={{ module_id }}page={{ next_page }}" aria-label="Next">
+                    <span aria-hidden="true">»</span>
+                </a></li>
+        {% else %}
+            {#             当没有下一页时,阅读bootrap文档得知,对当前li使用disabled样式#}
+            <li class="disabled ">
+                {#                 href="#",处于禁用状态的按钮被点击时直接跳转本页#}
+                <a href="#" aria-label="Next">
+                    <span aria-hidden="true" style="color: gray">»</span>
+                </a></li>
+        {% endif %}
+
+    </ul>
+</nav>
+
+
+
+
+{#用例上传#}
+<script>
+    function submitFile() {
+        var fileInput = $('#reportXML').get(0).files[0];
+        console.info(fileInput);
+        if (fileInput) {
+            $("#reportXML").submit();
+        } else {
+            alert("请选择上传文件！");
+        }
+    }
+</script>
+
+
+{#添加模块#}
+<script>
+    function btnAddModule() {
+       t_module_name = $('#t_module_name').val();
+        $.post('/model_one_add/', {
+            't_module_name': t_module_name,
+        }, function (ret) {
+            document.location.reload();
+        })
+    }
+</script>
+</body>
+</html>
+</head>
+<body>
+
+</body>
+</html>
