@@ -22,7 +22,7 @@
 
     }
 
-    a:hover {
+    #btnCaseexport,h3,a:hover,a {
         text-decoration: none;
     }
 </style>
@@ -32,7 +32,7 @@
 <div class="panel panel-primary">
     <!-- 导航栏 -->
     <div class="panel-heading">
-        <h3 class="panel-title">测试用例管理系统</h3>
+        <h3 class="panel-title "><a href="http://127.0.0.1:8000/admin"  target="_blank">测试用例管理系统</a></h3>
     </div>
 
     <div class="panel-body form-inline">
@@ -60,7 +60,7 @@
             <h3 style="text-align: center">添加模块</h3>
             <div class="input-group">
                 <div class="input-group-addon" style="margin:0 auto">模块名称</div>
-                  {% csrf_token %}
+                {% csrf_token %}
                 <input type="text" class="form-control" id="t_module_name" placeholder="请输入模块名称">
             </div>
             <br><br>
@@ -76,39 +76,62 @@
         </div>
 
         <!-- 删除模块 -->
-{#        <button id="btnDelModule" class="btn btn-primary btn-info">删除模块</button>#}
+        <button id="btnDelModule" class="btn btn-primary btn-info"
+                onclick="javascript:document.getElementById('del_Module_div').style.display='block'">删除模块
+        </button>
+
         <!-- 添加用例 -->
-{#        <button id="btnAddCase" class="btn btn-primary btn-info">添加用例</button>#}
+        {#        <button id="btnAddCase" class="btn btn-primary btn-info">添加用例</button>#}
         <!-- 用例上传 -->
-        <button id="btnCaseimport" class="btn btn-primary" onclick="javascript:document.getElementById('file-import').style.display='block'">用例上传</button>
+        <button id="btnCaseimport" class="btn btn-primary"
+                onclick="javascript:document.getElementById('file-import').style.display='block'">用例上传
+        </button>
         <!-- 用例导出 -->
-        <button id="btnCaseexport" class="btn btn-primary">用例导出</button>
-{#        <div style="display:none">#}
-
-{#        <input type="text">#}
-{#        <button type="button"  class="btn btn-info" onclick="F_Open_dialog()">选择文件</button>#}
-        </div>
-
-     </button>
-<form action="/upload_file/" id='file-import' method="post" enctype="multipart/form-data" style="width: 35%;background-color: white;border: 1px solid black;
-        position: absolute;left: 50%;top: 100px;padding-left: 10px;box-shadow: 4px 4px 8px grey;border-radius: 5px;
-         z-index: 999999; display: none ;line-height: 50px;border-top: 36px;">
-     <h3 style="text-align: center">上传文件</h3>
-        {% csrf_token %}
-        <div>
-        <input type="file" name="file"  id="reportXML">
-        <input type="submit" onclick="submitFile()" class="default btn-info"  value="上传">
-        </div>
-     <div style=" position: relative;left: 70%;top:-5px;">
-     <button onclick="javascript:document.getElementById('file-import').style.display='none'" class="btn btn-danger">取消
-     </button>
-     </div>
-</form>
-
+        <button id="btnCaseexport" class="btn btn-primary"><a href="/case_export/" target="_blank">用例导出</a></button>
 
     </div>
 
+    </button>
+    <form action="/upload_file/" id='file-import' method="post" enctype="multipart/form-data" style="width: 35%;background-color: pink;border: 1px solid black;
+        position: absolute;left: 50%;top: 100px;box-shadow: 4px 4px 8px grey;border-radius: 5px;
+         z-index: 999999; display: none ;line-height: 50px;border-top: 36px;">
+        <h3 style="text-align: left;background-color: pink">上传文件:</h3>
+        {% csrf_token %}
+        <div style="width: 30px;height: 50px">
+            <input type="file" name="file" id="reportXML" style="padding-left: 105px">
+        </div>
+        <div style=" position: relative;left: 70%;top:-5px;">
+            <button onclick="javascript:document.getElementById('file-import').style.display='none'"
+                    class="btn btn-danger">取消
+            </button>
+            <button onclick="submitFile()" class="btn btn-danger">确定
+            </button>
+        </div>
+    </form>
 
+
+</div>
+{#删除模块#}
+
+<div id="del_Module_div" style="width: 30%;background-color: white;border: 1px solid black;
+        position: absolute;left: 50%;top: 55px;padding-left: 10px;box-shadow: 4px 4px 8px grey;border-radius: 5px;
+         z-index: 999999; display: none">
+    <h3 style="text-align: center">删除</h3>
+    <div class="input-group">
+        <div class="input-group-addon" style="margin:0 auto">删除模块名称</div>
+        <input type="text" class="form-control" id="del_module_name" placeholder="请输入模块名称">
+    </div>
+    <br><br>
+    <!--因为取消按钮要执行的js语句只有一句，我们可以偷懒直接写在onclick属性中，而不需要先写个js函数，然后onclick再调用这个函数-->
+    <!--然后我们要给这个弹层的确定按钮，加上onclick属性，来调用这个btnDeleteModule()函数-->
+    <div style=" position: relative;left: 70%;top:30px;">
+        <button onclick="javascript:document.getElementById('del_Module_div').style.display='none'"
+                class="btn btn-danger">取消
+        </button>
+        <button onclick="btnDeleteModule()" class="btn btn-success">确定</button>
+    </div>
+    <br> <br>
+</div>
 </div>
 
 <!-- 表单部分 -->
@@ -198,8 +221,6 @@
 </nav>
 
 
-
-
 {#用例上传#}
 <script>
     function submitFile() {
@@ -217,9 +238,21 @@
 {#添加模块#}
 <script>
     function btnAddModule() {
-       t_module_name = $('#t_module_name').val();
+        t_module_name = $('#t_module_name').val();
         $.post('/model_one_add/', {
             't_module_name': t_module_name,
+        }, function (ret) {
+            document.location.reload();
+        })
+    }
+</script>
+
+{# 模块删除#}
+<script>
+    function btnDeleteModule() {
+        del_module_name = $('#del_module_name').val();
+        $.post('/module_del/', {
+            'del_module_name': del_module_name,
         }, function (ret) {
             document.location.reload();
         })

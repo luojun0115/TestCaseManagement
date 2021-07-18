@@ -9,7 +9,6 @@ from django.http import HttpResponse
 from CaseManagement.models import DB_testcase, DB_module,Article,ArticleCategory
 
 exportable_fields = (
-    "t_id",
     't_module',
     't_priority',
     't_purpose',
@@ -45,7 +44,6 @@ export_model_as_csv.short_description = '测试数据导出到CSV_我去挣钱'
 class TestCaseAdmin(admin.ModelAdmin):
     actions = [export_model_as_csv, ]
     list_display = [
-        "t_id",
         't_module',
         't_priority',
         't_purpose',

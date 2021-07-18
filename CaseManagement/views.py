@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 import csv
+import datetime
 import json
 import os
 import time
 
 from django.core.paginator import Paginator
-from django.http import HttpResponseBadRequest, HttpResponseNotFound, HttpResponse, JsonResponse
+from django.http import HttpResponseBadRequest, HttpResponseNotFound, HttpResponse, JsonResponse, HttpResponseRedirect
 from django.shortcuts import render, redirect
 
 # Create your views here.
@@ -15,11 +16,48 @@ from CaseManagement.models import DB_testcase, DB_module, Article, ArticleCatego
 from TestCaseManagement.settings import logger
 
 
+# 用例导出
+def case_export(request):
+    response = HttpResponse(content_type='text/csv')
+    response['Content-Disposition'] = 'attachment; filename=%s.csv' % (
+        datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
+    )
+    response.charset = 'utf-8'
+    import xlwt  # 导入模块
+    wb = xlwt.Workbook(encoding='ascii')  # 创建新的Excel
+    module_all = DB_module.objects.all()
+    # 遍历得到所有的模块
+    for module in module_all:
+        logger.info("===========目前正在导出的模块是：%s============" % module)
+        case_list_all = DB_testcase.objects.filter(t_module=module).values_list()
+
+        ws = wb.add_sheet(str(module.t_module_name), cell_overwrite_ok=True)
+        logger.info("===========Excel增加模块：%s============" % module)
+        if len(case_list_all) >= 1:
+            i = 0
+            # 1, 登录, p1, 验证登录是否成功, 1.。。2。。。3.。。, 环境准备就绪, 登录成功, 登录成功, 登录成功
+            for case_list in case_list_all:
+                print(case_list)
+                ws.write(i, 0, label=str(case_list[0]))  # 用例编号
+                ws.write(i, 1, label=str(module.t_module_name))  # 所属模块
+                ws.write(i, 2, label=str(case_list[1]))  # 优先级
+                ws.write(i, 3, label=str(case_list[2]))  # 测试目的
+                ws.write(i, 4, label=str(case_list[3]))  # 前置条件
+                ws.write(i, 5, label=str(case_list[4]))  # 测试步骤
+                ws.write(i, 6, label=str(case_list[5]))  # 预期结果
+                ws.write(i, 7, label=str(case_list[6]))  # 备注
+                ws.write(i, 8, label=str(case_list[7]))  # 实际结果
+                i += 1
+            logger.info("===========导出模块：%s 成功============" % module)
+    wb.save(response)
+    logger.info("导出成功")
+    return response
+
+
 # 模块删除
 @csrf_exempt
 def module_del(request):
     del_module_name = request.POST['del_module_name']
-    print(del_module_name)
     module = DB_module.objects.get(t_module_name=del_module_name)
     logger.info('====删除模块的名称为：%s===' % module)
     if module != '':
@@ -31,11 +69,11 @@ def module_del(request):
             # 最后删除掉模块名称
             DB_module.objects.get(t_module_name=module).delete()
             logger.info('====删除模块的名称为：%s，删除模块成功' % module)
-            return redirect('/testcase1/')
+            return HttpResponseRedirect('/testcase1/')
         except Exception as e:
             logger.info('====删除%s模块的用例失败===' % module.id)
 
-    return redirect('/testcase1/')
+    return HttpResponseRedirect('/testcase1/')
 
 
 # 模块添加
@@ -57,7 +95,7 @@ def model_one_add(request):
     return HttpResponse('/testcase1/')
 
 
-# 上传文件
+# 用例上传
 def upload_file(request):
     # 首先判断文件请求类型
     if str(request.method).upper() == 'GET':
@@ -86,12 +124,12 @@ def upload_file(request):
         file_full_path = 'static' + os.sep + file_name_new
         logger.info('文件路径为：%s' % file_full_path)
         try:
-            with open(file_full_path, 'r') as f:
+            with open(file_full_path, 'r',encoding='utf-8') as f:
                 reader = csv.reader(f)
                 for row in reader:
                     DB_testcase.objects.create(
                         t_module=DB_module.objects.filter(t_module_name=row[1]).first(),
-                        t_priority=row[2],
+                        t_priority=row[2],  #
                         t_purpose=row[3],
                         t_precondition=row[4],
                         t_steps=row[5],
@@ -100,7 +138,7 @@ def upload_file(request):
                         t_remark=row[8],
                     )
         except Exception as e:
-            logger.error('上传出现问题o')
+            logger.error('上传出现问题%s' %e)
 
         return redirect('/testcase1')
 
@@ -197,7 +235,7 @@ def testcase1(request):
     page_num = range(1, pag_num + 1)
     print(page_num)
     # return render(request, 'templates/testcase.html', context={"testcase": v_testcase})
-    return render(request, 'templates/testcase.html', {
+    return render(request, 'templates/testcase6.html', {
         'page_article_list': page_article_list,
         'page_num': page_num,
         'testcase_list': page_article_list,

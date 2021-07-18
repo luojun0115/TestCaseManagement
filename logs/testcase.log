@@ -4009,3 +4009,1943 @@ INFO 2021-07-14 01:08:13,878 views 160 从前端拿到模块的module_id为：1
 INFO 2021-07-14 01:08:13,880 views 171 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>]>
 INFO 2021-07-14 01:08:13,911 views 160 从前端拿到模块的module_id为：25
 INFO 2021-07-14 01:08:13,913 views 171 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>]>
+INFO 2021-07-15 21:37:45,524 views 159 从前端拿到模块的module_id为：1
+INFO 2021-07-15 21:37:45,569 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>]>
+INFO 2021-07-15 21:37:57,747 views 159 从前端拿到模块的module_id为：1
+INFO 2021-07-15 21:37:57,751 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>]>
+INFO 2021-07-15 21:37:59,442 views 159 从前端拿到模块的module_id为：1
+INFO 2021-07-15 21:37:59,444 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>]>
+INFO 2021-07-15 21:38:00,150 views 159 从前端拿到模块的module_id为：1
+INFO 2021-07-15 21:38:00,152 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>]>
+INFO 2021-07-15 21:38:01,290 views 159 从前端拿到模块的module_id为：1
+INFO 2021-07-15 21:38:01,293 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>]>
+INFO 2021-07-15 21:38:01,719 views 159 从前端拿到模块的module_id为：1
+INFO 2021-07-15 21:38:01,721 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>]>
+INFO 2021-07-15 21:38:41,356 views 71 上传文件为空
+INFO 2021-07-15 21:38:41,399 views 159 从前端拿到模块的module_id为：1
+INFO 2021-07-15 21:38:41,401 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>]>
+INFO 2021-07-15 21:38:51,605 views 71 上传文件为空
+INFO 2021-07-15 21:38:51,615 views 159 从前端拿到模块的module_id为：1
+INFO 2021-07-15 21:38:51,618 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>]>
+INFO 2021-07-15 21:39:16,301 views 159 从前端拿到模块的module_id为：1
+INFO 2021-07-15 21:39:16,303 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>]>
+INFO 2021-07-15 21:39:17,255 views 159 从前端拿到模块的module_id为：1
+INFO 2021-07-15 21:39:17,258 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>]>
+INFO 2021-07-15 21:39:18,378 views 159 从前端拿到模块的module_id为：7
+INFO 2021-07-15 21:39:18,380 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>]>
+INFO 2021-07-15 21:39:20,472 views 159 从前端拿到模块的module_id为：22
+INFO 2021-07-15 21:39:20,475 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>]>
+INFO 2021-07-15 21:39:37,593 views 48 ====添加模块的名称：用户模块===
+INFO 2021-07-15 21:39:37,626 views 159 从前端拿到模块的module_id为：22
+INFO 2021-07-15 21:39:37,628 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>, <DB_module: 用户模块>]>
+INFO 2021-07-15 21:39:44,421 views 48 ====添加模块的名称：注册模块===
+INFO 2021-07-15 21:39:44,447 views 159 从前端拿到模块的module_id为：22
+INFO 2021-07-15 21:39:44,451 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>, <DB_module: 用户模块>, <DB_module: 注册模块>]>
+INFO 2021-07-15 21:39:49,246 views 159 从前端拿到模块的module_id为：7
+INFO 2021-07-15 21:39:49,249 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>, <DB_module: 用户模块>, <DB_module: 注册模块>]>
+INFO 2021-07-15 21:39:59,692 views 48 ====添加模块的名称：注册===
+INFO 2021-07-15 21:39:59,713 views 159 从前端拿到模块的module_id为：7
+INFO 2021-07-15 21:39:59,717 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>, <DB_module: 用户模块>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:40:01,652 views 159 从前端拿到模块的module_id为：1
+INFO 2021-07-15 21:40:01,655 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>, <DB_module: 用户模块>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:40:10,664 views 159 从前端拿到模块的module_id为：21
+INFO 2021-07-15 21:40:10,666 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>, <DB_module: 用户模块>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:40:11,528 views 159 从前端拿到模块的module_id为：7
+INFO 2021-07-15 21:40:11,531 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>, <DB_module: 用户模块>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:40:12,474 views 159 从前端拿到模块的module_id为：22
+INFO 2021-07-15 21:40:12,476 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>, <DB_module: 用户模块>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:40:13,148 views 159 从前端拿到模块的module_id为：23
+INFO 2021-07-15 21:40:13,150 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>, <DB_module: 用户模块>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:40:57,348 views 159 从前端拿到模块的module_id为：23
+INFO 2021-07-15 21:40:57,350 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>, <DB_module: 用户模块>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:43:05,762 views 159 从前端拿到模块的module_id为：7
+INFO 2021-07-15 21:43:05,765 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>, <DB_module: 用户模块>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:43:16,234 views 159 从前端拿到模块的module_id为：23
+INFO 2021-07-15 21:43:16,236 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>, <DB_module: 用户模块>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:43:16,548 views 159 从前端拿到模块的module_id为：23
+INFO 2021-07-15 21:43:16,550 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>, <DB_module: 用户模块>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:43:16,730 views 159 从前端拿到模块的module_id为：23
+INFO 2021-07-15 21:43:16,732 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>, <DB_module: 用户模块>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:44:17,820 views 159 从前端拿到模块的module_id为：23
+INFO 2021-07-15 21:44:17,823 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>, <DB_module: 用户模块>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:44:18,456 views 159 从前端拿到模块的module_id为：23
+INFO 2021-07-15 21:44:18,459 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>, <DB_module: 用户模块>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:44:19,440 views 159 从前端拿到模块的module_id为：23
+INFO 2021-07-15 21:44:19,443 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 购物>, <DB_module: 用户模块>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:44:23,534 views 23 ====删除模块的名称为：购物===
+INFO 2021-07-15 21:44:23,685 views 29 ====删除模块的id为：23，删除用例成功===
+INFO 2021-07-15 21:44:23,845 views 32 ====删除模块的名称为：购物，删除模块成功
+INFO 2021-07-15 21:44:23,855 views 159 从前端拿到模块的module_id为：1
+INFO 2021-07-15 21:44:23,855 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 用户模块>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:44:23,891 views 159 从前端拿到模块的module_id为：23
+INFO 2021-07-15 21:44:23,894 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 用户模块>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:44:50,952 views 159 从前端拿到模块的module_id为：1
+INFO 2021-07-15 21:44:50,952 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 用户模块>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:45:17,346 views 159 从前端拿到模块的module_id为：22
+INFO 2021-07-15 21:45:17,349 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 用户模块>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:45:19,418 views 159 从前端拿到模块的module_id为：26
+INFO 2021-07-15 21:45:19,421 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 用户模块>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:45:20,393 views 159 从前端拿到模块的module_id为：26
+INFO 2021-07-15 21:45:20,396 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 用户模块>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:45:55,247 views 23 ====删除模块的名称为：用户模块===
+INFO 2021-07-15 21:45:55,564 views 29 ====删除模块的id为：26，删除用例成功===
+INFO 2021-07-15 21:45:55,704 views 32 ====删除模块的名称为：用户模块，删除模块成功
+INFO 2021-07-15 21:45:55,720 views 159 从前端拿到模块的module_id为：26
+INFO 2021-07-15 21:45:55,723 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:47:37,411 views 159 从前端拿到模块的module_id为：1
+INFO 2021-07-15 21:47:37,416 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:47:45,047 views 159 从前端拿到模块的module_id为：28
+INFO 2021-07-15 21:47:45,049 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:48:12,433 views 159 从前端拿到模块的module_id为：28
+INFO 2021-07-15 21:48:12,436 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:48:19,155 views 23 ====删除模块的名称为：注册===
+INFO 2021-07-15 21:48:19,463 views 29 ====删除模块的id为：28，删除用例成功===
+INFO 2021-07-15 21:48:19,743 views 32 ====删除模块的名称为：注册，删除模块成功
+INFO 2021-07-15 21:48:39,698 views 159 从前端拿到模块的module_id为：28
+INFO 2021-07-15 21:48:39,701 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 注册模块>]>
+INFO 2021-07-15 21:48:42,259 views 159 从前端拿到模块的module_id为：28
+INFO 2021-07-15 21:48:42,261 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 注册模块>]>
+INFO 2021-07-15 21:48:47,253 views 159 从前端拿到模块的module_id为：1
+INFO 2021-07-15 21:48:47,255 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 注册模块>]>
+INFO 2021-07-15 21:48:47,893 views 159 从前端拿到模块的module_id为：1
+INFO 2021-07-15 21:48:47,896 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 注册模块>]>
+INFO 2021-07-15 21:48:49,217 views 159 从前端拿到模块的module_id为：27
+INFO 2021-07-15 21:48:49,220 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 注册模块>]>
+INFO 2021-07-15 21:48:55,796 views 48 ====添加模块的名称：注册===
+INFO 2021-07-15 21:48:55,816 views 159 从前端拿到模块的module_id为：27
+INFO 2021-07-15 21:48:55,820 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:49:42,376 views 159 从前端拿到模块的module_id为：27
+INFO 2021-07-15 21:49:42,381 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:49:42,745 views 159 从前端拿到模块的module_id为：27
+INFO 2021-07-15 21:49:42,749 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:49:42,916 views 159 从前端拿到模块的module_id为：27
+INFO 2021-07-15 21:49:42,919 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:49:43,061 views 159 从前端拿到模块的module_id为：27
+INFO 2021-07-15 21:49:43,064 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:49:46,644 views 159 从前端拿到模块的module_id为：29
+INFO 2021-07-15 21:49:46,647 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 注册模块>, <DB_module: 注册>]>
+INFO 2021-07-15 21:49:58,979 views 23 ====删除模块的名称为：注册===
+INFO 2021-07-15 21:49:59,186 views 29 ====删除模块的id为：29，删除用例成功===
+INFO 2021-07-15 21:49:59,336 views 32 ====删除模块的名称为：注册，删除模块成功
+INFO 2021-07-15 21:49:59,345 views 159 从前端拿到模块的module_id为：1
+INFO 2021-07-15 21:49:59,348 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 注册模块>]>
+INFO 2021-07-15 21:49:59,393 views 159 从前端拿到模块的module_id为：29
+INFO 2021-07-15 21:49:59,397 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 订单管理>, <DB_module: 注册模块>]>
+INFO 2021-07-15 21:53:22,584 views 23 ====删除模块的名称为：订单管理===
+INFO 2021-07-15 21:53:22,982 views 32 ====删除模块的名称为：订单管理，删除模块成功
+INFO 2021-07-15 21:53:22,990 views 159 从前端拿到模块的module_id为：1
+INFO 2021-07-15 21:53:22,994 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 注册模块>]>
+INFO 2021-07-15 21:53:23,043 views 159 从前端拿到模块的module_id为：27
+INFO 2021-07-15 21:53:23,046 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 权限>, <DB_module: 注册模块>]>
+INFO 2021-07-15 21:54:41,574 views 23 ====删除模块的名称为：权限===
+INFO 2021-07-15 21:54:42,124 views 32 ====删除模块的名称为：权限，删除模块成功
+INFO 2021-07-15 21:54:42,139 views 159 从前端拿到模块的module_id为：1
+INFO 2021-07-15 21:54:42,142 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 注册模块>]>
+INFO 2021-07-15 21:54:42,194 views 159 从前端拿到模块的module_id为：27
+INFO 2021-07-15 21:54:42,199 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 注册模块>]>
+INFO 2021-07-15 21:56:08,275 views 159 从前端拿到模块的module_id为：27
+INFO 2021-07-15 21:56:08,279 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 注册模块>]>
+INFO 2021-07-15 21:56:17,703 views 23 ====删除模块的名称为：注册模块===
+INFO 2021-07-15 21:56:19,931 views 32 ====删除模块的名称为：注册模块，删除模块成功
+INFO 2021-07-15 21:56:19,953 views 159 从前端拿到模块的module_id为：27
+INFO 2021-07-15 21:56:19,957 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-15 21:56:56,171 views 159 从前端拿到模块的module_id为：1
+INFO 2021-07-15 21:56:56,174 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-15 21:57:01,266 views 71 上传文件为空
+INFO 2021-07-15 21:57:01,282 views 159 从前端拿到模块的module_id为：1
+INFO 2021-07-15 21:57:01,285 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-15 21:57:03,327 views 71 上传文件为空
+INFO 2021-07-15 21:57:03,349 views 159 从前端拿到模块的module_id为：1
+INFO 2021-07-15 21:57:03,351 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-15 21:57:11,038 views 71 上传文件为空
+INFO 2021-07-15 21:57:11,050 views 159 从前端拿到模块的module_id为：1
+INFO 2021-07-15 21:57:11,052 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-15 21:57:15,151 views 159 从前端拿到模块的module_id为：1
+INFO 2021-07-15 21:57:15,153 views 170 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-15 22:06:15,141 views 167 从前端拿到模块的module_id为：1
+INFO 2021-07-15 22:06:15,145 views 178 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-15 22:09:26,928 views 23 当前的模块是：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-15 22:10:46,155 views 24 当前的模块是：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-15 22:11:05,618 views 24 当前的模块是：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-15 22:11:07,626 views 24 当前的模块是：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-17 18:32:32,210 views 178 从前端拿到模块的module_id为：1
+INFO 2021-07-17 18:32:32,227 views 189 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-17 18:35:06,758 views 41 当前的模块是：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-17 18:35:23,034 views 42 当前的模块是：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-17 18:37:57,524 views 42 当前的模块是：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-17 18:40:03,594 views 42 当前的模块是：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-17 18:40:04,277 views 42 当前的模块是：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-17 18:40:04,401 views 42 当前的模块是：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-17 18:40:04,523 views 42 当前的模块是：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-17 18:40:04,659 views 42 当前的模块是：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-17 18:40:04,782 views 42 当前的模块是：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-17 18:40:04,913 views 42 当前的模块是：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-17 18:40:05,043 views 42 当前的模块是：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-17 18:40:21,582 views 42 当前的模块是：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-17 18:43:27,255 views 42 当前的模块是：商品管理
+INFO 2021-07-17 18:45:16,042 views 43 当前的模块是：商品管理
+INFO 2021-07-17 18:46:02,733 views 43 当前的模块是：商品管理
+INFO 2021-07-17 18:46:38,941 views 43 当前的模块是：商品管理
+INFO 2021-07-17 18:46:39,808 views 43 当前的模块是：商品管理
+INFO 2021-07-17 18:46:39,952 views 43 当前的模块是：商品管理
+INFO 2021-07-17 18:46:40,080 views 43 当前的模块是：商品管理
+INFO 2021-07-17 18:46:40,208 views 43 当前的模块是：商品管理
+INFO 2021-07-17 18:49:14,204 views 43 当前的模块是：商品管理
+INFO 2021-07-17 18:50:16,587 views 41 当前的模块是：商品管理
+INFO 2021-07-17 18:51:05,520 views 46 当前的模块是：商品管理
+INFO 2021-07-17 18:53:40,324 views 36 当前的模块是：商品管理
+INFO 2021-07-17 18:54:26,150 views 182 从前端拿到模块的module_id为：1
+INFO 2021-07-17 18:54:26,153 views 193 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>]>
+INFO 2021-07-17 18:55:23,431 views 182 从前端拿到模块的module_id为：1
+INFO 2021-07-17 18:55:23,434 views 193 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>]>
+INFO 2021-07-17 18:55:34,103 views 92 上传文件file:2021-06-27-15-10-3620210704-212152.csv
+INFO 2021-07-17 18:55:34,104 views 105 读取文件结束
+INFO 2021-07-17 18:55:34,104 views 109 文件路径为：static\2021-06-27-15-10-3620210704-21215220210717-185534.csv
+ERROR 2021-07-17 18:55:34,167 views 125 上传出现问题o
+INFO 2021-07-17 18:55:34,192 views 182 从前端拿到模块的module_id为：1
+INFO 2021-07-17 18:55:34,193 views 193 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>]>
+INFO 2021-07-17 18:55:38,072 views 182 从前端拿到模块的module_id为：7
+INFO 2021-07-17 18:55:38,074 views 193 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>]>
+INFO 2021-07-17 18:55:38,789 views 182 从前端拿到模块的module_id为：30
+INFO 2021-07-17 18:55:38,791 views 193 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>]>
+INFO 2021-07-17 18:55:39,317 views 182 从前端拿到模块的module_id为：32
+INFO 2021-07-17 18:55:39,319 views 193 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>]>
+INFO 2021-07-17 18:55:44,507 views 71 ====添加模块的名称：支付===
+INFO 2021-07-17 18:55:44,528 views 182 从前端拿到模块的module_id为：32
+INFO 2021-07-17 18:55:44,530 views 193 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>]>
+INFO 2021-07-17 18:55:51,538 views 71 ====添加模块的名称：支付模块===
+INFO 2021-07-17 18:55:51,549 views 182 从前端拿到模块的module_id为：32
+INFO 2021-07-17 18:55:51,552 views 193 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 18:55:58,269 views 92 上传文件file:2021-06-27-15-10-3620210704-212152.csv
+INFO 2021-07-17 18:55:58,270 views 105 读取文件结束
+INFO 2021-07-17 18:55:58,271 views 109 文件路径为：static\2021-06-27-15-10-3620210704-21215220210717-185558.csv
+ERROR 2021-07-17 18:55:58,327 views 125 上传出现问题o
+INFO 2021-07-17 18:55:58,337 views 182 从前端拿到模块的module_id为：1
+INFO 2021-07-17 18:55:58,339 views 193 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 18:56:00,513 views 182 从前端拿到模块的module_id为：32
+INFO 2021-07-17 18:56:00,516 views 193 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 18:56:01,212 views 182 从前端拿到模块的module_id为：33
+INFO 2021-07-17 18:56:01,213 views 193 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 18:56:01,765 views 182 从前端拿到模块的module_id为：34
+INFO 2021-07-17 18:56:01,767 views 193 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 18:56:02,322 views 182 从前端拿到模块的module_id为：33
+INFO 2021-07-17 18:56:02,324 views 193 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 18:56:03,403 views 182 从前端拿到模块的module_id为：34
+INFO 2021-07-17 18:56:03,406 views 193 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 18:56:03,963 views 182 从前端拿到模块的module_id为：30
+INFO 2021-07-17 18:56:03,965 views 193 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 18:56:04,540 views 182 从前端拿到模块的module_id为：7
+INFO 2021-07-17 18:56:04,542 views 193 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 18:56:04,970 views 182 从前端拿到模块的module_id为：1
+INFO 2021-07-17 18:56:04,972 views 193 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 18:56:06,238 views 182 从前端拿到模块的module_id为：1
+INFO 2021-07-17 18:56:06,240 views 193 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 18:57:07,655 views 182 从前端拿到模块的module_id为：33
+INFO 2021-07-17 18:57:07,657 views 193 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 18:57:08,877 views 182 从前端拿到模块的module_id为：34
+INFO 2021-07-17 18:57:08,879 views 193 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 18:57:09,721 views 182 从前端拿到模块的module_id为：33
+INFO 2021-07-17 18:57:09,723 views 193 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 18:57:10,098 views 182 从前端拿到模块的module_id为：32
+INFO 2021-07-17 18:57:10,100 views 193 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 18:57:10,771 views 182 从前端拿到模块的module_id为：30
+INFO 2021-07-17 18:57:10,773 views 193 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 18:57:11,371 views 182 从前端拿到模块的module_id为：7
+INFO 2021-07-17 18:57:11,373 views 193 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 18:58:39,697 views 191 从前端拿到模块的module_id为：30
+INFO 2021-07-17 18:58:39,699 views 202 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 18:58:42,181 views 103 上传文件为空
+INFO 2021-07-17 18:58:42,198 views 191 从前端拿到模块的module_id为：1
+INFO 2021-07-17 18:58:42,200 views 202 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 18:58:56,357 views 191 从前端拿到模块的module_id为：1
+INFO 2021-07-17 18:58:56,360 views 202 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 18:58:56,878 views 191 从前端拿到模块的module_id为：1
+INFO 2021-07-17 18:58:56,880 views 202 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:01:48,439 views 42 当前的模块是：支付模块
+INFO 2021-07-17 19:02:21,138 views 43 当前的模块是：支付模块
+INFO 2021-07-17 19:02:33,708 views 42 当前的模块是：支付模块
+INFO 2021-07-17 19:03:01,753 views 43 当前的模块是：支付模块
+INFO 2021-07-17 19:08:36,655 views 44 当前的模块是：支付模块
+INFO 2021-07-17 19:09:16,321 views 45 当前的模块是：支付模块
+INFO 2021-07-17 19:11:20,472 views 194 从前端拿到模块的module_id为：1
+INFO 2021-07-17 19:11:20,475 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:11:22,207 views 194 从前端拿到模块的module_id为：7
+INFO 2021-07-17 19:11:22,210 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:11:22,580 views 194 从前端拿到模块的module_id为：30
+INFO 2021-07-17 19:11:22,582 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:11:22,951 views 194 从前端拿到模块的module_id为：32
+INFO 2021-07-17 19:11:22,953 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:11:23,284 views 194 从前端拿到模块的module_id为：33
+INFO 2021-07-17 19:11:23,286 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:11:23,564 views 194 从前端拿到模块的module_id为：34
+INFO 2021-07-17 19:11:23,566 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:13:05,087 views 48 当前的模块是：支付模块
+INFO 2021-07-17 19:13:36,180 views 47 当前的模块是：支付模块
+INFO 2021-07-17 19:13:47,860 views 193 从前端拿到模块的module_id为：34
+INFO 2021-07-17 19:13:47,863 views 204 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:13:48,392 views 193 从前端拿到模块的module_id为：34
+INFO 2021-07-17 19:13:48,394 views 204 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:13:48,514 views 193 从前端拿到模块的module_id为：34
+INFO 2021-07-17 19:13:48,517 views 204 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:13:48,650 views 193 从前端拿到模块的module_id为：34
+INFO 2021-07-17 19:13:48,653 views 204 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:13:49,043 views 193 从前端拿到模块的module_id为：34
+INFO 2021-07-17 19:13:49,045 views 204 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:14:03,939 views 103 上传文件file:2021-06-27-15-10-3620210704-212152.csv
+INFO 2021-07-17 19:14:03,940 views 116 读取文件结束
+INFO 2021-07-17 19:14:03,940 views 120 文件路径为：static\2021-06-27-15-10-3620210704-21215220210717-191403.csv
+INFO 2021-07-17 19:14:04,024 views 193 从前端拿到模块的module_id为：1
+INFO 2021-07-17 19:14:04,026 views 204 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:14:05,623 views 193 从前端拿到模块的module_id为：7
+INFO 2021-07-17 19:14:05,625 views 204 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:14:16,139 views 47 当前的模块是：支付模块
+INFO 2021-07-17 19:16:40,098 views 193 从前端拿到模块的module_id为：7
+INFO 2021-07-17 19:16:40,101 views 204 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:16:40,418 views 193 从前端拿到模块的module_id为：7
+INFO 2021-07-17 19:16:40,421 views 204 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:16:41,139 views 193 从前端拿到模块的module_id为：7
+INFO 2021-07-17 19:16:41,143 views 204 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:16:41,273 views 193 从前端拿到模块的module_id为：7
+INFO 2021-07-17 19:16:41,276 views 204 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:16:41,409 views 193 从前端拿到模块的module_id为：7
+INFO 2021-07-17 19:16:41,411 views 204 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:16:42,173 views 193 从前端拿到模块的module_id为：7
+INFO 2021-07-17 19:16:42,177 views 204 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:16:42,740 views 193 从前端拿到模块的module_id为：1
+INFO 2021-07-17 19:16:42,741 views 204 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:16:44,261 views 193 从前端拿到模块的module_id为：7
+INFO 2021-07-17 19:16:44,264 views 204 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:16:44,917 views 193 从前端拿到模块的module_id为：1
+INFO 2021-07-17 19:16:44,919 views 204 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:17:36,168 views 48 当前的模块是：支付模块
+INFO 2021-07-17 19:27:19,936 views 48 当前的模块是：支付模块
+INFO 2021-07-17 19:28:15,329 views 49 当前的模块是：支付模块
+INFO 2021-07-17 19:30:07,480 views 195 从前端拿到模块的module_id为：7
+INFO 2021-07-17 19:30:07,483 views 206 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:30:13,726 views 105 上传文件file:2021-06-27-15-10-3620210704-212152.csv
+INFO 2021-07-17 19:30:13,727 views 118 读取文件结束
+INFO 2021-07-17 19:30:13,727 views 122 文件路径为：static\2021-06-27-15-10-3620210704-21215220210717-193013.csv
+INFO 2021-07-17 19:30:13,890 views 195 从前端拿到模块的module_id为：1
+INFO 2021-07-17 19:30:13,891 views 206 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:30:24,078 views 49 当前的模块是：支付模块
+INFO 2021-07-17 19:30:52,520 views 49 当前的模块是：支付模块
+INFO 2021-07-17 19:31:27,866 views 49 当前的模块是：支付模块
+INFO 2021-07-17 19:32:07,974 views 49 当前的模块是：支付模块
+INFO 2021-07-17 19:32:08,542 views 49 当前的模块是：支付模块
+INFO 2021-07-17 19:32:08,713 views 49 当前的模块是：支付模块
+INFO 2021-07-17 19:39:05,948 views 49 当前的模块是：支付模块
+INFO 2021-07-17 19:40:41,460 views 104 上传文件file:2021-06-27-15-10-3620210704-212403.csv
+INFO 2021-07-17 19:40:41,461 views 117 读取文件结束
+INFO 2021-07-17 19:40:41,462 views 121 文件路径为：static\2021-06-27-15-10-3620210704-21240320210717-194041.csv
+ERROR 2021-07-17 19:40:41,524 views 137 上传出现问题o
+INFO 2021-07-17 19:40:41,543 views 194 从前端拿到模块的module_id为：1
+INFO 2021-07-17 19:40:41,545 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:40:43,781 views 194 从前端拿到模块的module_id为：30
+INFO 2021-07-17 19:40:43,784 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:40:44,187 views 194 从前端拿到模块的module_id为：32
+INFO 2021-07-17 19:40:44,189 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:40:44,693 views 194 从前端拿到模块的module_id为：33
+INFO 2021-07-17 19:40:44,695 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:40:45,164 views 194 从前端拿到模块的module_id为：34
+INFO 2021-07-17 19:40:45,166 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:40:45,684 views 194 从前端拿到模块的module_id为：33
+INFO 2021-07-17 19:40:45,685 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:40:46,122 views 194 从前端拿到模块的module_id为：1
+INFO 2021-07-17 19:40:46,125 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:40:57,404 views 194 从前端拿到模块的module_id为：33
+INFO 2021-07-17 19:40:57,405 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:40:58,124 views 194 从前端拿到模块的module_id为：34
+INFO 2021-07-17 19:40:58,126 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:40:59,425 views 194 从前端拿到模块的module_id为：34
+INFO 2021-07-17 19:40:59,427 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:40:59,816 views 194 从前端拿到模块的module_id为：34
+INFO 2021-07-17 19:40:59,818 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:40:59,960 views 194 从前端拿到模块的module_id为：34
+INFO 2021-07-17 19:40:59,962 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:41:03,131 views 106 上传文件为空
+INFO 2021-07-17 19:41:03,148 views 194 从前端拿到模块的module_id为：1
+INFO 2021-07-17 19:41:03,149 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:41:11,470 views 104 上传文件file:2021-06-27-15-10-3620210708-234803.csv
+INFO 2021-07-17 19:41:11,471 views 117 读取文件结束
+INFO 2021-07-17 19:41:11,472 views 121 文件路径为：static\2021-06-27-15-10-3620210708-23480320210717-194111.csv
+ERROR 2021-07-17 19:41:11,738 views 137 上传出现问题o
+INFO 2021-07-17 19:41:11,753 views 194 从前端拿到模块的module_id为：1
+INFO 2021-07-17 19:41:11,755 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:41:14,617 views 194 从前端拿到模块的module_id为：1
+INFO 2021-07-17 19:41:14,620 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:41:15,896 views 194 从前端拿到模块的module_id为：1
+INFO 2021-07-17 19:41:15,899 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:41:16,303 views 194 从前端拿到模块的module_id为：1
+INFO 2021-07-17 19:41:16,306 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:41:16,483 views 194 从前端拿到模块的module_id为：1
+INFO 2021-07-17 19:41:16,486 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:41:16,612 views 194 从前端拿到模块的module_id为：1
+INFO 2021-07-17 19:41:16,615 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:41:19,413 views 194 从前端拿到模块的module_id为：30
+INFO 2021-07-17 19:41:19,415 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:41:20,009 views 194 从前端拿到模块的module_id为：32
+INFO 2021-07-17 19:41:20,011 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:41:34,408 views 194 从前端拿到模块的module_id为：32
+INFO 2021-07-17 19:41:34,411 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:41:35,263 views 194 从前端拿到模块的module_id为：32
+INFO 2021-07-17 19:41:35,266 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:41:35,383 views 194 从前端拿到模块的module_id为：32
+INFO 2021-07-17 19:41:35,386 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:41:40,662 views 104 上传文件file:2021-06-27-15-10-3620210704-212152.csv
+INFO 2021-07-17 19:41:40,662 views 117 读取文件结束
+INFO 2021-07-17 19:41:40,663 views 121 文件路径为：static\2021-06-27-15-10-3620210704-21215220210717-194140.csv
+ERROR 2021-07-17 19:41:40,720 views 137 上传出现问题o
+INFO 2021-07-17 19:41:40,736 views 194 从前端拿到模块的module_id为：1
+INFO 2021-07-17 19:41:40,738 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:41:44,063 views 194 从前端拿到模块的module_id为：7
+INFO 2021-07-17 19:41:44,067 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:41:45,337 views 194 从前端拿到模块的module_id为：33
+INFO 2021-07-17 19:41:45,339 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:41:45,804 views 194 从前端拿到模块的module_id为：34
+INFO 2021-07-17 19:41:45,806 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:42:01,060 views 194 从前端拿到模块的module_id为：34
+INFO 2021-07-17 19:42:01,064 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:42:01,669 views 194 从前端拿到模块的module_id为：34
+INFO 2021-07-17 19:42:01,673 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:42:01,850 views 194 从前端拿到模块的module_id为：34
+INFO 2021-07-17 19:42:01,853 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:42:01,981 views 194 从前端拿到模块的module_id为：34
+INFO 2021-07-17 19:42:01,985 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:42:02,122 views 194 从前端拿到模块的module_id为：34
+INFO 2021-07-17 19:42:02,125 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:42:02,264 views 194 从前端拿到模块的module_id为：34
+INFO 2021-07-17 19:42:02,267 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:42:03,220 views 194 从前端拿到模块的module_id为：1
+INFO 2021-07-17 19:42:03,222 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 19:42:04,468 views 194 从前端拿到模块的module_id为：7
+INFO 2021-07-17 19:42:04,470 views 205 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 21:14:46,438 views 49 当前的模块是：支付模块
+INFO 2021-07-17 21:15:02,203 views 49 当前的模块是：支付模块
+INFO 2021-07-17 21:15:19,175 views 195 从前端拿到模块的module_id为：1
+INFO 2021-07-17 21:15:19,178 views 206 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 21:17:24,133 views 49 当前的模块是：支付模块
+INFO 2021-07-17 21:17:24,183 views 49 当前的模块是：支付模块
+INFO 2021-07-17 21:17:24,194 views 49 当前的模块是：支付模块
+INFO 2021-07-17 21:17:24,246 views 49 当前的模块是：支付模块
+INFO 2021-07-17 21:17:24,257 views 49 当前的模块是：支付模块
+INFO 2021-07-17 21:17:24,309 views 49 当前的模块是：支付模块
+INFO 2021-07-17 21:17:24,319 views 49 当前的模块是：支付模块
+INFO 2021-07-17 21:17:24,372 views 49 当前的模块是：支付模块
+INFO 2021-07-17 21:17:40,574 views 51 当前的模块是：支付模块
+INFO 2021-07-17 21:17:58,740 views 51 当前的模块是：支付模块
+INFO 2021-07-17 21:18:13,100 views 51 当前的模块是：支付模块
+INFO 2021-07-17 21:18:13,407 views 51 当前的模块是：支付模块
+INFO 2021-07-17 21:18:13,764 views 51 当前的模块是：支付模块
+INFO 2021-07-17 21:18:13,910 views 51 当前的模块是：支付模块
+INFO 2021-07-17 21:18:14,101 views 51 当前的模块是：支付模块
+INFO 2021-07-17 21:18:14,206 views 51 当前的模块是：支付模块
+INFO 2021-07-17 21:55:30,549 views 73 当前的模块是：支付模块
+INFO 2021-07-17 21:58:15,686 views 45 当前的模块是：支付模块
+INFO 2021-07-17 22:03:32,608 views 45 当前的模块是：支付模块
+INFO 2021-07-17 22:03:43,255 views 45 当前的模块是：支付模块
+INFO 2021-07-17 22:03:45,333 views 45 当前的模块是：支付模块
+INFO 2021-07-17 22:03:45,605 views 45 当前的模块是：支付模块
+INFO 2021-07-17 22:04:13,356 views 45 当前的模块是：支付模块
+INFO 2021-07-17 22:05:18,002 views 49 当前的模块是：支付模块
+INFO 2021-07-17 22:06:34,731 views 54 当前的模块是：支付模块
+INFO 2021-07-17 22:08:54,745 views 43 当前的模块是：支付模块
+INFO 2021-07-17 22:10:09,301 views 45 当前的模块是：支付模块
+INFO 2021-07-17 22:11:42,720 views 45 当前的模块是：支付模块
+INFO 2021-07-17 22:14:01,605 views 26 ===========目前正在导入的模块是：登录==========
+INFO 2021-07-17 22:14:01,608 views 26 ===========目前正在导入的模块是：商品管理==========
+INFO 2021-07-17 22:14:01,609 views 26 ===========目前正在导入的模块是：登录模块==========
+INFO 2021-07-17 22:14:01,611 views 26 ===========目前正在导入的模块是：注册模块==========
+INFO 2021-07-17 22:14:01,613 views 26 ===========目前正在导入的模块是：支付==========
+INFO 2021-07-17 22:14:01,615 views 26 ===========目前正在导入的模块是：支付模块==========
+INFO 2021-07-17 22:14:01,618 views 45 当前的模块是：支付模块
+INFO 2021-07-17 22:21:41,328 views 26 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 22:21:41,329 views 30 ===========Excel增加模块：登录============
+INFO 2021-07-17 22:21:41,330 views 26 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 22:21:41,330 views 30 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 22:21:41,331 views 26 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 22:21:41,331 views 30 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 22:21:41,332 views 26 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 22:21:41,332 views 30 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 22:21:41,333 views 26 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 22:21:41,333 views 30 ===========Excel增加模块：支付============
+INFO 2021-07-17 22:21:41,334 views 26 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 22:21:41,335 views 30 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 22:21:41,338 views 46 当前的模块是：支付模块
+INFO 2021-07-17 22:24:56,805 views 26 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 22:24:56,806 views 30 ===========Excel增加模块：登录============
+INFO 2021-07-17 22:24:56,807 views 44 ===========增加模块：登录 成功============
+INFO 2021-07-17 22:24:56,807 views 26 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 22:24:56,808 views 30 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 22:24:56,808 views 26 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 22:24:56,809 views 30 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 22:24:56,809 views 26 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 22:24:56,810 views 30 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 22:24:56,810 views 44 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 22:24:56,810 views 26 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 22:24:56,811 views 30 ===========Excel增加模块：支付============
+INFO 2021-07-17 22:24:56,811 views 44 ===========增加模块：支付 成功============
+INFO 2021-07-17 22:24:56,811 views 26 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 22:24:56,812 views 30 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 22:24:56,812 views 44 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 22:24:56,816 views 47 导入成功
+INFO 2021-07-17 22:30:17,857 views 192 从前端拿到模块的module_id为：1
+INFO 2021-07-17 22:30:17,860 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:30:18,452 views 192 从前端拿到模块的module_id为：1
+INFO 2021-07-17 22:30:18,454 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:30:18,764 views 192 从前端拿到模块的module_id为：1
+INFO 2021-07-17 22:30:18,767 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:30:19,988 views 192 从前端拿到模块的module_id为：7
+INFO 2021-07-17 22:30:19,991 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:30:20,607 views 192 从前端拿到模块的module_id为：30
+INFO 2021-07-17 22:30:20,609 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:30:21,134 views 192 从前端拿到模块的module_id为：32
+INFO 2021-07-17 22:30:21,136 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:30:22,287 views 192 从前端拿到模块的module_id为：34
+INFO 2021-07-17 22:30:22,290 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:30:23,198 views 192 从前端拿到模块的module_id为：34
+INFO 2021-07-17 22:30:23,200 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:30:23,647 views 192 从前端拿到模块的module_id为：33
+INFO 2021-07-17 22:30:23,649 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:30:24,709 views 192 从前端拿到模块的module_id为：30
+INFO 2021-07-17 22:30:24,712 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:35:21,086 views 192 从前端拿到模块的module_id为：32
+INFO 2021-07-17 22:35:21,088 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:35:22,000 views 192 从前端拿到模块的module_id为：33
+INFO 2021-07-17 22:35:22,002 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:35:22,454 views 192 从前端拿到模块的module_id为：34
+INFO 2021-07-17 22:35:22,456 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:35:23,611 views 192 从前端拿到模块的module_id为：32
+INFO 2021-07-17 22:35:23,613 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:36:16,211 views 192 从前端拿到模块的module_id为：32
+INFO 2021-07-17 22:36:16,213 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:36:27,287 views 192 从前端拿到模块的module_id为：32
+INFO 2021-07-17 22:36:27,291 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:36:40,607 views 192 从前端拿到模块的module_id为：32
+INFO 2021-07-17 22:36:40,610 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:36:59,132 views 192 从前端拿到模块的module_id为：32
+INFO 2021-07-17 22:36:59,137 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:37:03,421 views 192 从前端拿到模块的module_id为：32
+INFO 2021-07-17 22:37:03,425 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:37:04,189 views 192 从前端拿到模块的module_id为：32
+INFO 2021-07-17 22:37:04,193 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:37:08,506 views 192 从前端拿到模块的module_id为：32
+INFO 2021-07-17 22:37:08,509 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:37:09,002 views 192 从前端拿到模块的module_id为：32
+INFO 2021-07-17 22:37:09,006 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:37:09,174 views 192 从前端拿到模块的module_id为：32
+INFO 2021-07-17 22:37:09,177 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:37:15,130 views 192 从前端拿到模块的module_id为：32
+INFO 2021-07-17 22:37:15,133 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:37:15,575 views 192 从前端拿到模块的module_id为：32
+INFO 2021-07-17 22:37:15,578 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:37:15,748 views 192 从前端拿到模块的module_id为：32
+INFO 2021-07-17 22:37:15,752 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:37:15,867 views 192 从前端拿到模块的module_id为：32
+INFO 2021-07-17 22:37:15,869 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:40:40,704 views 192 从前端拿到模块的module_id为：32
+INFO 2021-07-17 22:40:40,707 views 203 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 22:40:43,476 views 25 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 22:40:43,477 views 29 ===========Excel增加模块：登录============
+INFO 2021-07-17 22:40:43,479 views 43 ===========增加模块：登录 成功============
+INFO 2021-07-17 22:40:43,479 views 25 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 22:40:43,480 views 29 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 22:40:43,481 views 25 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 22:40:43,481 views 29 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 22:40:43,482 views 25 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 22:40:43,483 views 29 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 22:40:43,483 views 43 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 22:40:43,483 views 25 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 22:40:43,484 views 29 ===========Excel增加模块：支付============
+INFO 2021-07-17 22:40:43,484 views 43 ===========增加模块：支付 成功============
+INFO 2021-07-17 22:40:43,484 views 25 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 22:40:43,485 views 29 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 22:40:43,485 views 43 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 22:40:43,487 views 46 导入成功
+INFO 2021-07-17 22:41:31,391 views 25 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 22:41:31,392 views 29 ===========Excel增加模块：登录============
+INFO 2021-07-17 22:41:31,393 views 43 ===========增加模块：登录 成功============
+INFO 2021-07-17 22:41:31,393 views 25 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 22:41:31,393 views 29 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 22:41:31,394 views 25 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 22:41:31,395 views 29 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 22:41:31,396 views 25 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 22:41:31,397 views 29 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 22:41:31,397 views 43 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 22:41:31,397 views 25 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 22:41:31,398 views 29 ===========Excel增加模块：支付============
+INFO 2021-07-17 22:41:31,398 views 43 ===========增加模块：支付 成功============
+INFO 2021-07-17 22:41:31,398 views 25 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 22:41:31,399 views 29 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 22:41:31,399 views 43 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 22:41:31,401 views 46 导入成功
+INFO 2021-07-17 22:54:02,856 views 25 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 22:54:02,857 views 29 ===========Excel增加模块：登录============
+INFO 2021-07-17 22:54:02,859 views 43 ===========增加模块：登录 成功============
+INFO 2021-07-17 22:54:02,859 views 25 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 22:54:02,860 views 29 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 22:54:02,861 views 25 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 22:54:02,862 views 29 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 22:54:02,862 views 25 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 22:54:02,863 views 29 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 22:54:02,864 views 43 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 22:54:02,864 views 25 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 22:54:02,865 views 29 ===========Excel增加模块：支付============
+INFO 2021-07-17 22:54:02,866 views 43 ===========增加模块：支付 成功============
+INFO 2021-07-17 22:54:02,866 views 25 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 22:54:02,866 views 29 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 22:54:02,867 views 43 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 22:54:02,870 views 46 导入成功
+INFO 2021-07-17 22:54:06,326 views 25 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 22:54:06,327 views 29 ===========Excel增加模块：登录============
+INFO 2021-07-17 22:54:06,328 views 43 ===========增加模块：登录 成功============
+INFO 2021-07-17 22:54:06,329 views 25 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 22:54:06,329 views 29 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 22:54:06,330 views 25 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 22:54:06,330 views 29 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 22:54:06,331 views 25 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 22:54:06,332 views 29 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 22:54:06,333 views 43 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 22:54:06,333 views 25 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 22:54:06,334 views 29 ===========Excel增加模块：支付============
+INFO 2021-07-17 22:54:06,335 views 43 ===========增加模块：支付 成功============
+INFO 2021-07-17 22:54:06,335 views 25 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 22:54:06,336 views 29 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 22:54:06,336 views 43 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 22:54:06,338 views 46 导入成功
+INFO 2021-07-17 22:54:19,745 views 25 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 22:54:19,746 views 29 ===========Excel增加模块：登录============
+INFO 2021-07-17 22:54:19,747 views 43 ===========增加模块：登录 成功============
+INFO 2021-07-17 22:54:19,747 views 25 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 22:54:19,748 views 29 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 22:54:19,749 views 25 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 22:54:19,750 views 29 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 22:54:19,751 views 25 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 22:54:19,752 views 29 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 22:54:19,754 views 43 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 22:54:19,754 views 25 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 22:54:19,754 views 29 ===========Excel增加模块：支付============
+INFO 2021-07-17 22:54:19,755 views 43 ===========增加模块：支付 成功============
+INFO 2021-07-17 22:54:19,755 views 25 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 22:54:19,756 views 29 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 22:54:19,756 views 43 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 22:54:19,758 views 46 导入成功
+INFO 2021-07-17 23:00:53,499 views 32 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:00:53,500 views 36 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:00:53,502 views 50 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:00:53,502 views 32 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:00:53,502 views 36 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:00:53,504 views 32 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:00:53,504 views 36 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:00:53,504 views 32 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:00:53,505 views 36 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:00:53,505 views 50 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:00:53,506 views 32 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:00:53,506 views 36 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:00:53,507 views 50 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:00:53,507 views 32 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:00:53,508 views 36 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:00:53,509 views 50 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:00:53,513 views 53 导入成功
+INFO 2021-07-17 23:06:24,317 views 198 从前端拿到模块的module_id为：32
+INFO 2021-07-17 23:06:24,322 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:06:25,442 views 32 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:06:25,443 views 36 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:06:25,445 views 50 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:06:25,446 views 32 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:06:25,447 views 36 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:06:25,449 views 32 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:06:25,450 views 36 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:06:25,452 views 32 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:06:25,453 views 36 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:06:25,455 views 50 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:06:25,455 views 32 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:06:25,456 views 36 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:06:25,458 views 50 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:06:25,458 views 32 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:06:25,459 views 36 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:06:25,460 views 50 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:06:25,462 views 52 导入成功
+INFO 2021-07-17 23:16:25,771 views 198 从前端拿到模块的module_id为：32
+INFO 2021-07-17 23:16:25,775 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:16:27,297 views 198 从前端拿到模块的module_id为：32
+INFO 2021-07-17 23:16:27,301 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:16:33,322 views 32 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:16:33,323 views 36 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:16:33,325 views 50 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:16:33,325 views 32 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:16:33,326 views 36 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:16:33,327 views 32 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:16:33,328 views 36 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:16:33,329 views 32 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:16:33,330 views 36 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:16:33,332 views 50 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:16:33,332 views 32 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:16:33,333 views 36 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:16:33,334 views 50 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:16:33,335 views 32 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:16:33,335 views 36 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:16:33,336 views 50 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:16:33,338 views 52 导入成功
+INFO 2021-07-17 23:16:50,306 views 198 从前端拿到模块的module_id为：32
+INFO 2021-07-17 23:16:50,310 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:17:33,556 views 198 从前端拿到模块的module_id为：32
+INFO 2021-07-17 23:17:33,558 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:17:34,769 views 32 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:17:34,770 views 36 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:17:34,771 views 50 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:17:34,772 views 32 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:17:34,773 views 36 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:17:34,774 views 32 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:17:34,775 views 36 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:17:34,776 views 32 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:17:34,777 views 36 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:17:34,779 views 50 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:17:34,779 views 32 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:17:34,780 views 36 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:17:34,781 views 50 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:17:34,782 views 32 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:17:34,783 views 36 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:17:34,785 views 50 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:17:34,786 views 52 导入成功
+INFO 2021-07-17 23:17:40,052 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:17:40,055 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:17:40,461 views 198 从前端拿到模块的module_id为：7
+INFO 2021-07-17 23:17:40,463 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:17:49,495 views 110 上传文件为空
+INFO 2021-07-17 23:17:49,510 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:17:49,512 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:17:52,563 views 32 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:17:52,564 views 36 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:17:52,565 views 50 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:17:52,566 views 32 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:17:52,567 views 36 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:17:52,568 views 32 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:17:52,569 views 36 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:17:52,570 views 32 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:17:52,572 views 36 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:17:52,573 views 50 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:17:52,574 views 32 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:17:52,574 views 36 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:17:52,575 views 50 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:17:52,575 views 32 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:17:52,576 views 36 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:17:52,577 views 50 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:17:52,578 views 52 导入成功
+INFO 2021-07-17 23:17:56,482 views 32 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:17:56,483 views 36 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:17:56,485 views 50 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:17:56,485 views 32 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:17:56,486 views 36 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:17:56,487 views 32 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:17:56,488 views 36 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:17:56,490 views 32 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:17:56,491 views 36 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:17:56,493 views 50 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:17:56,493 views 32 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:17:56,493 views 36 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:17:56,495 views 50 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:17:56,495 views 32 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:17:56,496 views 36 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:17:56,498 views 50 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:17:56,500 views 52 导入成功
+INFO 2021-07-17 23:17:58,943 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:17:58,945 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:17:59,094 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:17:59,096 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:17:59,382 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:17:59,389 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:17:59,535 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:17:59,539 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:18:00,622 views 32 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:18:00,623 views 36 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:18:00,625 views 50 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:18:00,625 views 32 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:18:00,626 views 36 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:18:00,628 views 32 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:18:00,629 views 36 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:18:00,630 views 32 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:18:00,631 views 36 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:18:00,633 views 50 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:18:00,633 views 32 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:18:00,634 views 36 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:18:00,635 views 50 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:18:00,635 views 32 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:18:00,636 views 36 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:18:00,636 views 50 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:18:00,638 views 52 导入成功
+INFO 2021-07-17 23:18:18,924 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:18:18,926 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:18:20,073 views 32 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:18:20,074 views 36 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:18:20,076 views 50 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:18:20,077 views 32 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:18:20,079 views 36 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:18:20,080 views 32 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:18:20,081 views 36 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:18:20,083 views 32 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:18:20,084 views 36 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:18:20,085 views 50 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:18:20,085 views 32 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:18:20,087 views 36 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:18:20,088 views 50 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:18:20,089 views 32 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:18:20,089 views 36 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:18:20,090 views 50 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:18:20,092 views 52 导入成功
+INFO 2021-07-17 23:18:22,345 views 32 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:18:22,346 views 36 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:18:22,348 views 50 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:18:22,348 views 32 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:18:22,349 views 36 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:18:22,351 views 32 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:18:22,352 views 36 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:18:22,354 views 32 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:18:22,355 views 36 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:18:22,356 views 50 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:18:22,357 views 32 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:18:22,357 views 36 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:18:22,359 views 50 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:18:22,359 views 32 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:18:22,360 views 36 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:18:22,361 views 50 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:18:22,363 views 52 导入成功
+INFO 2021-07-17 23:18:23,136 views 32 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:18:23,137 views 36 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:18:23,138 views 50 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:18:23,139 views 32 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:18:23,140 views 36 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:18:23,141 views 32 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:18:23,142 views 36 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:18:23,144 views 32 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:18:23,145 views 36 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:18:23,146 views 50 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:18:23,146 views 32 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:18:23,147 views 36 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:18:23,147 views 50 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:18:23,147 views 32 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:18:23,148 views 36 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:18:23,148 views 50 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:18:23,150 views 52 导入成功
+INFO 2021-07-17 23:18:23,440 views 32 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:18:23,441 views 36 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:18:23,444 views 50 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:18:23,444 views 32 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:18:23,445 views 36 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:18:23,446 views 32 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:18:23,447 views 36 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:18:23,449 views 32 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:18:23,450 views 36 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:18:23,452 views 50 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:18:23,452 views 32 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:18:23,453 views 36 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:18:23,454 views 50 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:18:23,454 views 32 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:18:23,455 views 36 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:18:23,456 views 50 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:18:23,457 views 52 导入成功
+INFO 2021-07-17 23:18:23,911 views 32 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:18:23,912 views 36 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:18:23,914 views 50 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:18:23,915 views 32 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:18:23,916 views 36 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:18:23,918 views 32 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:18:23,919 views 36 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:18:23,919 views 32 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:18:23,920 views 36 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:18:23,922 views 50 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:18:23,922 views 32 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:18:23,923 views 36 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:18:23,925 views 50 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:18:23,925 views 32 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:18:23,927 views 36 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:18:23,928 views 50 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:18:23,930 views 52 导入成功
+INFO 2021-07-17 23:18:24,188 views 32 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:18:24,189 views 36 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:18:24,191 views 50 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:18:24,191 views 32 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:18:24,192 views 36 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:18:24,193 views 32 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:18:24,195 views 36 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:18:24,196 views 32 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:18:24,197 views 36 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:18:24,198 views 50 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:18:24,199 views 32 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:18:24,200 views 36 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:18:24,201 views 50 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:18:24,201 views 32 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:18:24,202 views 36 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:18:24,203 views 50 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:18:24,204 views 52 导入成功
+INFO 2021-07-17 23:18:24,626 views 32 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:18:24,627 views 36 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:18:24,629 views 50 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:18:24,630 views 32 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:18:24,631 views 36 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:18:24,633 views 32 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:18:24,634 views 36 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:18:24,635 views 32 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:18:24,636 views 36 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:18:24,637 views 50 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:18:24,637 views 32 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:18:24,638 views 36 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:18:24,639 views 50 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:18:24,639 views 32 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:18:24,639 views 36 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:18:24,641 views 50 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:18:24,644 views 52 导入成功
+INFO 2021-07-17 23:18:25,061 views 32 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:18:25,062 views 36 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:18:25,064 views 50 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:18:25,064 views 32 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:18:25,065 views 36 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:18:25,067 views 32 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:18:25,068 views 36 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:18:25,069 views 32 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:18:25,070 views 36 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:18:25,071 views 50 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:18:25,071 views 32 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:18:25,073 views 36 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:18:25,074 views 50 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:18:25,074 views 32 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:18:25,075 views 36 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:18:25,077 views 50 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:18:25,078 views 52 导入成功
+INFO 2021-07-17 23:27:17,794 views 198 从前端拿到模块的module_id为：34
+INFO 2021-07-17 23:27:17,796 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:27:18,853 views 198 从前端拿到模块的module_id为：32
+INFO 2021-07-17 23:27:18,855 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:27:19,265 views 198 从前端拿到模块的module_id为：30
+INFO 2021-07-17 23:27:19,267 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:27:30,175 views 108 上传文件file:2021-07-17-23-00-53.csv
+INFO 2021-07-17 23:27:30,176 views 121 读取文件结束
+INFO 2021-07-17 23:27:30,176 views 125 文件路径为：static\2021-07-17-23-00-5320210717-232730.csv
+ERROR 2021-07-17 23:27:30,177 views 141 上传出现问题o
+INFO 2021-07-17 23:27:30,188 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:27:30,189 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:27:32,579 views 198 从前端拿到模块的module_id为：7
+INFO 2021-07-17 23:27:32,581 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:27:33,539 views 198 从前端拿到模块的module_id为：7
+INFO 2021-07-17 23:27:33,541 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:27:34,206 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:27:34,208 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:27:34,737 views 198 从前端拿到模块的module_id为：7
+INFO 2021-07-17 23:27:34,739 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:27:35,058 views 198 从前端拿到模块的module_id为：30
+INFO 2021-07-17 23:27:35,060 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:27:35,468 views 198 从前端拿到模块的module_id为：32
+INFO 2021-07-17 23:27:35,470 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:30:48,786 views 197 从前端拿到模块的module_id为：32
+INFO 2021-07-17 23:30:48,789 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:30:50,370 views 31 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:30:50,371 views 35 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:30:50,373 views 49 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:30:50,373 views 31 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:30:50,374 views 35 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:30:50,376 views 31 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:30:50,377 views 35 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:30:50,378 views 31 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:30:50,379 views 35 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:30:50,380 views 49 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:30:50,381 views 31 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:30:50,381 views 35 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:30:50,383 views 49 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:30:50,383 views 31 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:30:50,384 views 35 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:30:50,385 views 49 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:30:50,386 views 51 导入成功
+INFO 2021-07-17 23:32:27,066 views 107 上传文件file:2021-07-17-23-18-25.csv
+INFO 2021-07-17 23:32:27,067 views 120 读取文件结束
+INFO 2021-07-17 23:32:27,070 views 124 文件路径为：static\2021-07-17-23-18-2520210717-233227.csv
+ERROR 2021-07-17 23:32:27,070 views 140 上传出现问题o
+INFO 2021-07-17 23:32:27,088 views 197 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:32:27,089 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:32:28,616 views 197 从前端拿到模块的module_id为：33
+INFO 2021-07-17 23:32:28,618 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:32:30,803 views 197 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:32:30,806 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:33:08,896 views 109 上传文件为空
+INFO 2021-07-17 23:33:08,910 views 197 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:33:08,912 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:33:09,490 views 31 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:33:09,491 views 35 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:33:09,493 views 49 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:33:09,493 views 31 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:33:09,494 views 35 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:33:09,495 views 31 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:33:09,496 views 35 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:33:09,498 views 31 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:33:09,499 views 35 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:33:09,500 views 49 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:33:09,501 views 31 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:33:09,501 views 35 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:33:09,502 views 49 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:33:09,502 views 31 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:33:09,503 views 35 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:33:09,504 views 49 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:33:09,506 views 51 导入成功
+INFO 2021-07-17 23:34:12,933 views 107 上传文件file:2021-07-17-23-18-25.csv
+INFO 2021-07-17 23:34:12,934 views 120 读取文件结束
+INFO 2021-07-17 23:34:12,934 views 124 文件路径为：static\2021-07-17-23-18-2520210717-233412.csv
+ERROR 2021-07-17 23:34:12,934 views 140 上传出现问题o
+INFO 2021-07-17 23:34:12,948 views 197 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:34:12,950 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:34:15,866 views 197 从前端拿到模块的module_id为：7
+INFO 2021-07-17 23:34:15,869 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:34:16,615 views 197 从前端拿到模块的module_id为：7
+INFO 2021-07-17 23:34:16,617 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:34:16,927 views 197 从前端拿到模块的module_id为：7
+INFO 2021-07-17 23:34:16,929 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:34:17,071 views 197 从前端拿到模块的module_id为：7
+INFO 2021-07-17 23:34:17,073 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:34:17,219 views 197 从前端拿到模块的module_id为：7
+INFO 2021-07-17 23:34:17,221 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:34:17,374 views 197 从前端拿到模块的module_id为：7
+INFO 2021-07-17 23:34:17,377 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:34:17,632 views 197 从前端拿到模块的module_id为：7
+INFO 2021-07-17 23:34:17,634 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:35:58,097 views 109 上传文件为空
+INFO 2021-07-17 23:35:58,127 views 197 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:35:58,128 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:35:58,144 views 107 上传文件file:2021-07-17-23-18-25.csv
+INFO 2021-07-17 23:35:58,144 views 120 读取文件结束
+INFO 2021-07-17 23:35:58,145 views 124 文件路径为：static\2021-07-17-23-18-2520210717-233558.csv
+ERROR 2021-07-17 23:35:58,145 views 140 上传出现问题o
+INFO 2021-07-17 23:35:58,177 views 197 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:35:58,179 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:35:58,252 views 197 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:35:58,254 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:35:58,311 views 197 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:35:58,312 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:36:24,954 views 109 上传文件为空
+INFO 2021-07-17 23:36:25,062 views 197 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:36:25,065 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:36:25,119 views 109 上传文件为空
+INFO 2021-07-17 23:36:25,146 views 197 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:36:25,148 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:36:25,213 views 197 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:36:25,215 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:36:25,274 views 197 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:36:25,276 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:36:25,671 views 197 从前端拿到模块的module_id为：30
+INFO 2021-07-17 23:36:25,673 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:36:26,892 views 197 从前端拿到模块的module_id为：30
+INFO 2021-07-17 23:36:26,894 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:36:26,906 views 197 从前端拿到模块的module_id为：7
+INFO 2021-07-17 23:36:26,909 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:36:26,953 views 197 从前端拿到模块的module_id为：7
+INFO 2021-07-17 23:36:26,955 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:36:27,194 views 197 从前端拿到模块的module_id为：7
+INFO 2021-07-17 23:36:27,196 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:36:27,253 views 197 从前端拿到模块的module_id为：7
+INFO 2021-07-17 23:36:27,255 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:36:47,592 views 107 上传文件file:2021-07-17-23-18-25.csv
+INFO 2021-07-17 23:36:47,593 views 120 读取文件结束
+INFO 2021-07-17 23:36:47,593 views 124 文件路径为：static\2021-07-17-23-18-2520210717-233647.csv
+ERROR 2021-07-17 23:36:47,593 views 140 上传出现问题o
+INFO 2021-07-17 23:36:47,602 views 197 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:36:47,604 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:36:49,251 views 197 从前端拿到模块的module_id为：7
+INFO 2021-07-17 23:36:49,254 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:36:50,094 views 197 从前端拿到模块的module_id为：7
+INFO 2021-07-17 23:36:50,096 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:36:50,251 views 197 从前端拿到模块的module_id为：7
+INFO 2021-07-17 23:36:50,253 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:36:50,407 views 197 从前端拿到模块的module_id为：7
+INFO 2021-07-17 23:36:50,409 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:36:50,546 views 197 从前端拿到模块的module_id为：7
+INFO 2021-07-17 23:36:50,548 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:37:51,596 views 107 上传文件file:2021-07-17-23-18-25.csv
+INFO 2021-07-17 23:37:51,614 views 120 读取文件结束
+INFO 2021-07-17 23:37:51,615 views 124 文件路径为：static\2021-07-17-23-18-2520210717-233751.csv
+ERROR 2021-07-17 23:37:51,615 views 140 上传出现问题o
+INFO 2021-07-17 23:37:51,626 views 197 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:37:51,629 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:37:54,875 views 197 从前端拿到模块的module_id为：7
+INFO 2021-07-17 23:37:54,877 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:37:55,756 views 197 从前端拿到模块的module_id为：30
+INFO 2021-07-17 23:37:55,758 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:37:56,710 views 197 从前端拿到模块的module_id为：33
+INFO 2021-07-17 23:37:56,711 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:37:57,017 views 197 从前端拿到模块的module_id为：34
+INFO 2021-07-17 23:37:57,019 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:37:58,623 views 197 从前端拿到模块的module_id为：34
+INFO 2021-07-17 23:37:58,625 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:37:59,071 views 197 从前端拿到模块的module_id为：33
+INFO 2021-07-17 23:37:59,073 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:38:03,512 views 197 从前端拿到模块的module_id为：30
+INFO 2021-07-17 23:38:03,514 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:38:05,335 views 197 从前端拿到模块的module_id为：33
+INFO 2021-07-17 23:38:05,338 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:38:05,678 views 197 从前端拿到模块的module_id为：34
+INFO 2021-07-17 23:38:05,681 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:38:09,271 views 109 上传文件为空
+INFO 2021-07-17 23:38:09,281 views 197 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:38:09,283 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:38:11,014 views 197 从前端拿到模块的module_id为：34
+INFO 2021-07-17 23:38:11,016 views 208 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:38:15,091 views 31 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:38:15,092 views 35 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:38:15,094 views 49 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:38:15,094 views 31 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:38:15,096 views 35 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:38:15,097 views 31 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:38:15,099 views 35 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:38:15,101 views 31 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:38:15,101 views 35 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:38:15,103 views 49 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:38:15,103 views 31 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:38:15,104 views 35 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:38:15,104 views 49 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:38:15,105 views 31 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:38:15,105 views 35 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:38:15,106 views 49 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:38:15,107 views 51 导入成功
+INFO 2021-07-17 23:50:04,060 views 31 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:50:04,061 views 35 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:50:04,063 views 49 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:50:04,063 views 31 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:50:04,064 views 35 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:50:04,066 views 31 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:50:04,067 views 35 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:50:04,068 views 31 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:50:04,070 views 35 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:50:04,071 views 49 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:50:04,071 views 31 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:50:04,073 views 35 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:50:04,075 views 49 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:50:04,075 views 31 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:50:04,075 views 35 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:50:04,077 views 49 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:50:04,079 views 51 导入成功
+INFO 2021-07-17 23:50:12,353 views 31 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:50:12,354 views 35 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:50:12,355 views 49 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:50:12,356 views 31 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:50:12,357 views 35 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:50:12,358 views 31 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:50:12,359 views 35 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:50:12,360 views 31 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:50:12,362 views 35 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:50:12,364 views 49 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:50:12,365 views 31 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:50:12,365 views 35 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:50:12,367 views 49 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:50:12,367 views 31 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:50:12,368 views 35 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:50:12,369 views 49 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:50:12,371 views 51 导入成功
+INFO 2021-07-17 23:52:48,409 views 31 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:52:48,410 views 35 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:52:48,412 views 50 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:52:48,412 views 31 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:52:48,413 views 35 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:52:48,414 views 31 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:52:48,415 views 35 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:52:48,416 views 31 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:52:48,416 views 35 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:52:48,417 views 50 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:52:48,417 views 31 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:52:48,418 views 35 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:52:48,419 views 50 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:52:48,419 views 31 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:52:48,421 views 35 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:52:48,421 views 50 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:52:48,423 views 52 导入成功
+INFO 2021-07-17 23:53:04,807 views 31 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:53:04,807 views 35 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:53:04,808 views 51 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:53:04,808 views 31 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:53:04,809 views 35 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:53:04,809 views 31 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:53:04,810 views 35 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:53:04,810 views 31 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:53:04,810 views 35 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:53:04,811 views 51 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:53:04,811 views 31 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:53:04,811 views 35 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:53:04,812 views 51 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:53:04,812 views 31 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:53:04,813 views 35 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:53:04,813 views 51 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:53:04,814 views 53 导入成功
+INFO 2021-07-17 23:53:30,751 views 199 从前端拿到模块的module_id为：34
+INFO 2021-07-17 23:53:30,754 views 210 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:53:34,435 views 31 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:53:34,436 views 35 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:53:43,366 views 31 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:53:43,367 views 35 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:53:47,037 views 31 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:53:47,038 views 35 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:54:17,559 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:54:17,563 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:54:30,346 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:54:30,349 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:54:30,934 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:54:30,938 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:54:31,115 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:54:31,118 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:54:31,245 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:54:31,249 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:54:32,201 views 31 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:54:32,202 views 35 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:56:01,346 views 31 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:56:01,347 views 35 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:56:01,349 views 51 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:56:01,349 views 31 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:56:01,350 views 35 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:56:01,351 views 31 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:56:01,351 views 35 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:56:01,352 views 31 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:56:01,352 views 35 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:56:01,353 views 51 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:56:01,353 views 31 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:56:01,354 views 35 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:56:01,354 views 51 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:56:01,355 views 31 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:56:01,355 views 35 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:56:01,356 views 51 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:56:01,356 views 53 导入成功
+INFO 2021-07-17 23:56:30,487 views 199 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:56:30,491 views 210 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:57:56,987 views 199 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:57:56,990 views 210 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:57:57,792 views 199 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:57:57,794 views 210 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:57:57,961 views 199 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:57:57,967 views 210 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:57:58,076 views 199 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:57:58,078 views 210 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:57:58,219 views 199 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:57:58,221 views 210 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:57:58,372 views 199 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:57:58,374 views 210 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:57:58,535 views 199 从前端拿到模块的module_id为：1
+INFO 2021-07-17 23:57:58,537 views 210 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-17 23:58:05,142 views 31 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:58:05,143 views 35 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:58:21,205 views 31 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:58:21,206 views 35 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:58:21,208 views 51 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:58:21,208 views 31 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:58:21,209 views 35 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:58:21,211 views 31 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:58:21,212 views 35 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:58:21,212 views 31 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:58:21,213 views 35 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:58:21,215 views 51 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:58:21,215 views 31 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:58:21,216 views 35 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:58:21,217 views 51 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:58:21,217 views 31 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:58:21,218 views 35 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:58:21,219 views 51 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:58:21,221 views 53 导入成功
+INFO 2021-07-17 23:58:23,588 views 31 ===========目前正在导入的模块是：登录============
+INFO 2021-07-17 23:58:23,589 views 35 ===========Excel增加模块：登录============
+INFO 2021-07-17 23:58:23,590 views 51 ===========增加模块：登录 成功============
+INFO 2021-07-17 23:58:23,591 views 31 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-17 23:58:23,591 views 35 ===========Excel增加模块：商品管理============
+INFO 2021-07-17 23:58:23,592 views 31 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-17 23:58:23,593 views 35 ===========Excel增加模块：登录模块============
+INFO 2021-07-17 23:58:23,595 views 31 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-17 23:58:23,596 views 35 ===========Excel增加模块：注册模块============
+INFO 2021-07-17 23:58:23,597 views 51 ===========增加模块：注册模块 成功============
+INFO 2021-07-17 23:58:23,598 views 31 ===========目前正在导入的模块是：支付============
+INFO 2021-07-17 23:58:23,599 views 35 ===========Excel增加模块：支付============
+INFO 2021-07-17 23:58:23,600 views 51 ===========增加模块：支付 成功============
+INFO 2021-07-17 23:58:23,601 views 31 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-17 23:58:23,601 views 35 ===========Excel增加模块：支付模块============
+INFO 2021-07-17 23:58:23,602 views 51 ===========增加模块：支付模块 成功============
+INFO 2021-07-17 23:58:23,603 views 53 导入成功
+INFO 2021-07-18 00:07:20,744 views 198 从前端拿到模块的module_id为：34
+INFO 2021-07-18 00:07:20,747 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:07:23,871 views 30 ===========目前正在导入的模块是：登录============
+INFO 2021-07-18 00:07:23,872 views 34 ===========Excel增加模块：登录============
+INFO 2021-07-18 00:07:23,874 views 50 ===========增加模块：登录 成功============
+INFO 2021-07-18 00:07:23,874 views 30 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-18 00:07:23,875 views 34 ===========Excel增加模块：商品管理============
+INFO 2021-07-18 00:07:23,877 views 30 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-18 00:07:23,878 views 34 ===========Excel增加模块：登录模块============
+INFO 2021-07-18 00:07:23,879 views 30 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-18 00:07:23,880 views 34 ===========Excel增加模块：注册模块============
+INFO 2021-07-18 00:07:23,882 views 50 ===========增加模块：注册模块 成功============
+INFO 2021-07-18 00:07:23,882 views 30 ===========目前正在导入的模块是：支付============
+INFO 2021-07-18 00:07:23,883 views 34 ===========Excel增加模块：支付============
+INFO 2021-07-18 00:07:23,884 views 50 ===========增加模块：支付 成功============
+INFO 2021-07-18 00:07:23,884 views 30 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-18 00:07:23,885 views 34 ===========Excel增加模块：支付模块============
+INFO 2021-07-18 00:07:23,886 views 50 ===========增加模块：支付模块 成功============
+INFO 2021-07-18 00:07:23,889 views 52 导入成功
+INFO 2021-07-18 00:08:48,892 views 196 从前端拿到模块的module_id为：34
+INFO 2021-07-18 00:08:48,896 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:08:55,155 views 106 上传文件file:2021-07-17-23-50-12.csv
+INFO 2021-07-18 00:08:55,157 views 119 读取文件结束
+INFO 2021-07-18 00:08:55,157 views 123 文件路径为：static\2021-07-17-23-50-1220210718-000855.csv
+ERROR 2021-07-18 00:08:55,157 views 139 上传出现问题o
+INFO 2021-07-18 00:08:55,175 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:08:55,177 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:08:58,583 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:08:58,587 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:08:58,899 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:08:58,902 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:08:59,056 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:08:59,060 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:09:04,315 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:09:04,318 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:09:04,872 views 196 从前端拿到模块的module_id为：7
+INFO 2021-07-18 00:09:04,874 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:09:06,160 views 196 从前端拿到模块的module_id为：7
+INFO 2021-07-18 00:09:06,162 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:09:08,534 views 196 从前端拿到模块的module_id为：33
+INFO 2021-07-18 00:09:08,537 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:09:15,720 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:09:15,723 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:09:51,792 views 106 上传文件file:2021-07-17-23-50-12.csv
+INFO 2021-07-18 00:09:51,794 views 119 读取文件结束
+INFO 2021-07-18 00:09:51,794 views 123 文件路径为：static\2021-07-17-23-50-1220210718-000951.csv
+ERROR 2021-07-18 00:09:51,794 views 139 上传出现问题o
+INFO 2021-07-18 00:09:51,806 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:09:51,809 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:09:53,752 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:09:53,756 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:09:54,187 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:09:54,190 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:09:54,372 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:09:54,375 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:09:54,542 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:09:54,545 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:09:54,680 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:09:54,683 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:09:54,841 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:09:54,844 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:11:31,535 views 106 上传文件file:2021-06-27-15-10-3620210704-212152.csv
+INFO 2021-07-18 00:11:31,536 views 119 读取文件结束
+INFO 2021-07-18 00:11:31,536 views 123 文件路径为：static\2021-06-27-15-10-3620210704-21215220210718-001131.csv
+ERROR 2021-07-18 00:11:32,210 views 139 上传出现问题o
+INFO 2021-07-18 00:11:32,223 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:11:32,225 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:11:36,832 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:11:36,834 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:11:37,910 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:11:37,913 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:11:39,309 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:11:39,310 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:11:39,459 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:11:39,461 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:11:39,604 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:11:39,606 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:11:39,747 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:11:39,750 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:11:39,892 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:11:39,897 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:11:46,479 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:11:46,482 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:11:46,994 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:11:46,998 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:11:47,207 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:11:47,209 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:11:47,353 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:11:47,356 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:11:47,517 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:11:47,521 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:11:47,649 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:11:47,651 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:11:49,897 views 30 ===========目前正在导入的模块是：登录============
+INFO 2021-07-18 00:11:49,899 views 34 ===========Excel增加模块：登录============
+INFO 2021-07-18 00:11:49,900 views 49 ===========增加模块：登录 成功============
+INFO 2021-07-18 00:11:49,901 views 30 ===========目前正在导入的模块是：商品管理============
+INFO 2021-07-18 00:11:49,902 views 34 ===========Excel增加模块：商品管理============
+INFO 2021-07-18 00:11:49,903 views 30 ===========目前正在导入的模块是：登录模块============
+INFO 2021-07-18 00:11:49,905 views 34 ===========Excel增加模块：登录模块============
+INFO 2021-07-18 00:11:49,906 views 30 ===========目前正在导入的模块是：注册模块============
+INFO 2021-07-18 00:11:49,907 views 34 ===========Excel增加模块：注册模块============
+INFO 2021-07-18 00:11:49,910 views 49 ===========增加模块：注册模块 成功============
+INFO 2021-07-18 00:11:49,910 views 30 ===========目前正在导入的模块是：支付============
+INFO 2021-07-18 00:11:49,911 views 34 ===========Excel增加模块：支付============
+INFO 2021-07-18 00:11:49,912 views 49 ===========增加模块：支付 成功============
+INFO 2021-07-18 00:11:49,912 views 30 ===========目前正在导入的模块是：支付模块============
+INFO 2021-07-18 00:11:49,913 views 34 ===========Excel增加模块：支付模块============
+INFO 2021-07-18 00:11:49,914 views 49 ===========增加模块：支付模块 成功============
+INFO 2021-07-18 00:11:49,915 views 51 导入成功
+INFO 2021-07-18 00:12:27,707 views 106 上传文件file:2021-07-18-00-11-49.csv
+INFO 2021-07-18 00:12:27,708 views 119 读取文件结束
+INFO 2021-07-18 00:12:27,708 views 123 文件路径为：static\2021-07-18-00-11-4920210718-001227.csv
+ERROR 2021-07-18 00:12:27,708 views 139 上传出现问题o
+INFO 2021-07-18 00:12:27,720 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:12:27,722 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:12:30,145 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:12:30,148 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:12:30,826 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:12:30,827 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:12:31,151 views 196 从前端拿到模块的module_id为：7
+INFO 2021-07-18 00:12:31,153 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:12:31,890 views 196 从前端拿到模块的module_id为：7
+INFO 2021-07-18 00:12:31,893 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:12:32,306 views 196 从前端拿到模块的module_id为：7
+INFO 2021-07-18 00:12:32,308 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:12:37,126 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:12:37,129 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:12:37,610 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:12:37,613 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:12:37,820 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:12:37,823 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:12:49,090 views 106 上传文件file:2021-07-17-23-50-12.csv
+INFO 2021-07-18 00:12:49,091 views 119 读取文件结束
+INFO 2021-07-18 00:12:49,092 views 123 文件路径为：static\2021-07-17-23-50-1220210718-001249.csv
+ERROR 2021-07-18 00:12:49,092 views 139 上传出现问题o
+INFO 2021-07-18 00:12:49,106 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:12:49,108 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:12:51,495 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:12:51,497 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:12:52,031 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:12:52,034 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:12:52,180 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:12:52,184 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:12:52,329 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:12:52,332 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:12:52,614 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:12:52,617 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:13:37,138 views 106 上传文件file:2021-07-17-23-50-12.csv
+INFO 2021-07-18 00:13:37,140 views 119 读取文件结束
+INFO 2021-07-18 00:13:37,140 views 123 文件路径为：static\2021-07-17-23-50-1220210718-001337.csv
+ERROR 2021-07-18 00:13:37,140 views 139 上传出现问题o
+INFO 2021-07-18 00:13:37,154 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:13:37,155 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:13:39,991 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:13:39,993 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:13:40,174 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:13:40,176 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:13:40,448 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:13:40,453 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:13:40,763 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:13:40,766 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:13:40,895 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:13:40,898 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:13:41,046 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:13:41,048 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:13:41,487 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:13:41,489 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:13:41,609 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:13:41,611 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:13:41,778 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:13:41,781 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:13:45,584 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:13:45,587 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:13:45,930 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:13:45,933 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:13:46,097 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:13:46,099 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:14:29,728 views 106 上传文件file:2021-07-17-23-50-12.csv
+INFO 2021-07-18 00:14:29,729 views 119 读取文件结束
+INFO 2021-07-18 00:14:29,729 views 123 文件路径为：static\2021-07-17-23-50-1220210718-001429.csv
+ERROR 2021-07-18 00:14:29,729 views 139 上传出现问题o
+INFO 2021-07-18 00:14:29,743 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:14:29,745 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 商品管理>, <DB_module: 登录模块>, <DB_module: 注册模块>, <DB_module: 支付>, <DB_module: 支付模块>]>
+INFO 2021-07-18 00:22:33,497 views 196 从前端拿到模块的module_id为：2
+INFO 2021-07-18 00:22:33,498 views 207 取出所有的模块为：<QuerySet []>
+INFO 2021-07-18 00:22:34,374 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:22:34,377 views 207 取出所有的模块为：<QuerySet []>
+INFO 2021-07-18 00:23:47,415 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:23:47,418 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:23:48,914 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:23:48,917 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:23:56,196 views 106 上传文件file:2021-07-17-23-50-12.csv
+INFO 2021-07-18 00:23:56,196 views 119 读取文件结束
+INFO 2021-07-18 00:23:56,197 views 123 文件路径为：static\2021-07-17-23-50-1220210718-002356.csv
+ERROR 2021-07-18 00:23:56,197 views 139 上传出现问题o
+INFO 2021-07-18 00:23:56,207 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:23:56,209 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:23:58,424 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:23:58,428 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:23:58,775 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:23:58,777 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:23:58,965 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:23:58,967 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:23:59,050 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:23:59,053 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:26:56,467 views 106 上传文件file:2021-07-17-23-50-12.csv
+INFO 2021-07-18 00:27:33,358 views 119 读取文件结束
+INFO 2021-07-18 00:27:37,411 views 123 文件路径为：static\2021-07-17-23-50-1220210718-002659.csv
+INFO 2021-07-18 00:30:16,460 views 30 ===========目前正在导入的模块是：登录============
+INFO 2021-07-18 00:30:16,462 views 34 ===========Excel增加模块：登录============
+INFO 2021-07-18 00:30:16,465 views 51 导入成功
+INFO 2021-07-18 00:35:22,807 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:35:22,811 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:35:49,596 views 106 上传文件file:2021-07-18-00-30-16.csv
+INFO 2021-07-18 00:35:49,597 views 119 读取文件结束
+INFO 2021-07-18 00:35:49,598 views 123 文件路径为：static\2021-07-18-00-30-1620210718-003549.csv
+ERROR 2021-07-18 00:35:49,598 views 139 上传出现问题o
+INFO 2021-07-18 00:35:49,615 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:35:49,616 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:35:56,155 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:35:56,158 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:35:56,962 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:35:56,965 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:35:57,139 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:35:57,140 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:35:57,274 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:35:57,276 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:35:57,447 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:35:57,450 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:38:37,573 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:38:37,576 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:38:38,893 views 30 ===========目前正在导入的模块是：登录============
+INFO 2021-07-18 00:38:38,895 views 34 ===========Excel增加模块：登录============
+INFO 2021-07-18 00:38:38,897 views 51 导入成功
+INFO 2021-07-18 00:40:06,250 views 106 上传文件file:2021-07-18-00-38-38.csv
+INFO 2021-07-18 00:40:06,251 views 119 读取文件结束
+INFO 2021-07-18 00:40:06,251 views 123 文件路径为：static\2021-07-18-00-38-3820210718-004006.csv
+INFO 2021-07-18 00:40:06,411 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:40:06,412 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:40:11,329 views 30 ===========目前正在导入的模块是：登录============
+INFO 2021-07-18 00:40:11,330 views 34 ===========Excel增加模块：登录============
+INFO 2021-07-18 00:40:11,332 views 49 ===========增加模块：登录 成功============
+INFO 2021-07-18 00:40:11,334 views 51 导入成功
+INFO 2021-07-18 00:40:49,598 views 30 ===========目前正在导入的模块是：登录============
+INFO 2021-07-18 00:40:49,599 views 34 ===========Excel增加模块：登录============
+INFO 2021-07-18 00:40:49,601 views 51 导入成功
+INFO 2021-07-18 00:40:55,942 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:40:55,944 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:41:01,863 views 106 上传文件file:2021-07-18-00-40-49.csv
+INFO 2021-07-18 00:41:01,864 views 119 读取文件结束
+INFO 2021-07-18 00:41:01,864 views 123 文件路径为：static\2021-07-18-00-40-4920210718-004101.csv
+ERROR 2021-07-18 00:41:01,864 views 139 上传出现问题o
+INFO 2021-07-18 00:41:01,873 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:41:01,876 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:41:04,119 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:41:04,121 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:41:04,766 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:41:04,769 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:41:04,902 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:41:04,904 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:41:05,047 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:41:05,050 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:41:05,211 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:41:05,213 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:41:05,342 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:41:05,345 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:42:18,097 views 106 上传文件file:2021-07-18-00-40-4920210718-004101.csv
+INFO 2021-07-18 00:42:18,099 views 119 读取文件结束
+INFO 2021-07-18 00:42:18,100 views 123 文件路径为：static\2021-07-18-00-40-4920210718-00410120210718-004218.csv
+ERROR 2021-07-18 00:42:18,100 views 139 上传出现问题o
+INFO 2021-07-18 00:42:18,108 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:42:18,110 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:42:20,088 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:42:20,090 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:42:20,792 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:42:20,794 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:42:20,942 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:42:20,944 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:42:21,078 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:42:21,080 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:42:21,232 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:42:21,234 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:43:29,486 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:43:29,490 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:43:37,356 views 106 上传文件file:2021-07-18-00-40-4920210718-004101.csv
+INFO 2021-07-18 00:43:37,357 views 119 读取文件结束
+INFO 2021-07-18 00:43:37,358 views 123 文件路径为：static\2021-07-18-00-40-4920210718-00410120210718-004337.csv
+INFO 2021-07-18 00:43:37,421 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:43:37,423 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:43:39,614 views 30 ===========目前正在导入的模块是：登录============
+INFO 2021-07-18 00:43:39,615 views 34 ===========Excel增加模块：登录============
+INFO 2021-07-18 00:43:39,617 views 49 ===========增加模块：登录 成功============
+INFO 2021-07-18 00:43:39,619 views 51 导入成功
+INFO 2021-07-18 00:44:25,649 views 106 上传文件file:2021-07-18-00-43-39.csv
+INFO 2021-07-18 00:44:25,650 views 119 读取文件结束
+INFO 2021-07-18 00:44:25,651 views 123 文件路径为：static\2021-07-18-00-43-3920210718-004425.csv
+ERROR 2021-07-18 00:44:25,651 views 139 上传出现问题o
+INFO 2021-07-18 00:44:25,660 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:44:25,662 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:44:32,778 views 106 上传文件file:2021-07-18-00-43-39.csv
+INFO 2021-07-18 00:44:32,781 views 119 读取文件结束
+INFO 2021-07-18 00:44:32,781 views 123 文件路径为：static\2021-07-18-00-43-3920210718-004432.csv
+ERROR 2021-07-18 00:44:32,782 views 139 上传出现问题o
+INFO 2021-07-18 00:44:32,793 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:44:32,795 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:44:34,673 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:44:34,675 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:44:35,004 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:44:35,006 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:44:35,171 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:44:35,174 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:44:35,322 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:44:35,325 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:47:14,141 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:47:14,144 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:47:14,922 views 30 ===========目前正在导入的模块是：登录============
+INFO 2021-07-18 00:47:14,924 views 34 ===========Excel增加模块：登录============
+INFO 2021-07-18 00:47:14,927 views 51 导入成功
+INFO 2021-07-18 00:47:24,185 views 106 上传文件file:2021-07-18-00-47-14.csv
+INFO 2021-07-18 00:47:24,187 views 119 读取文件结束
+INFO 2021-07-18 00:47:24,187 views 123 文件路径为：static\2021-07-18-00-47-1420210718-004724.csv
+ERROR 2021-07-18 00:47:24,187 views 139 上传出现问题o
+INFO 2021-07-18 00:47:24,205 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:47:24,207 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:47:26,668 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:47:26,669 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:49:34,028 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:49:34,031 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:49:34,964 views 32 ===========目前正在导入的模块是：登录============
+INFO 2021-07-18 00:49:34,966 views 36 ===========Excel增加模块：登录============
+INFO 2021-07-18 00:49:34,969 views 53 导入成功
+INFO 2021-07-18 00:52:39,169 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:52:39,172 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:52:41,903 views 32 ===========目前正在导入的模块是：登录============
+INFO 2021-07-18 00:52:41,904 views 36 ===========Excel增加模块：登录============
+INFO 2021-07-18 00:52:41,907 views 53 导入成功
+INFO 2021-07-18 00:53:13,120 views 32 ===========目前正在导入的模块是：登录============
+INFO 2021-07-18 00:53:13,122 views 36 ===========Excel增加模块：登录============
+INFO 2021-07-18 00:53:13,124 views 53 导入成功
+INFO 2021-07-18 00:54:15,753 views 32 ===========目前正在导入的模块是：登录============
+INFO 2021-07-18 00:54:15,754 views 36 ===========Excel增加模块：登录============
+INFO 2021-07-18 00:54:15,755 views 53 导入成功
+INFO 2021-07-18 00:54:34,587 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:54:34,589 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:54:37,142 views 32 ===========目前正在导入的模块是：登录============
+INFO 2021-07-18 00:54:37,143 views 36 ===========Excel增加模块：登录============
+INFO 2021-07-18 00:54:37,146 views 53 导入成功
+INFO 2021-07-18 00:54:44,898 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:54:44,901 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:55:34,272 views 108 上传文件file:2021-07-18-00-40-4920210718-004101.csv
+INFO 2021-07-18 00:55:34,273 views 121 读取文件结束
+INFO 2021-07-18 00:55:34,273 views 125 文件路径为：static\2021-07-18-00-40-4920210718-00410120210718-005534.csv
+INFO 2021-07-18 00:55:34,461 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:55:34,464 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:56:16,389 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 00:56:16,392 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 00:56:17,054 views 32 ===========目前正在导入的模块是：登录============
+INFO 2021-07-18 00:56:17,055 views 36 ===========Excel增加模块：登录============
+INFO 2021-07-18 00:56:17,057 views 51 ===========增加模块：登录 成功============
+INFO 2021-07-18 00:56:17,059 views 53 导入成功
+INFO 2021-07-18 01:04:00,751 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 01:04:00,754 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 01:04:11,822 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 01:04:11,824 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 01:04:12,215 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 01:04:12,218 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 01:04:12,384 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 01:04:12,387 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 01:04:13,109 views 32 ===========目前正在导入的模块是：登录============
+INFO 2021-07-18 01:04:13,111 views 36 ===========Excel增加模块：登录============
+INFO 2021-07-18 01:04:13,112 views 51 ===========增加模块：登录 成功============
+INFO 2021-07-18 01:04:13,114 views 53 导入成功
+INFO 2021-07-18 01:05:47,714 views 200 从前端拿到模块的module_id为：1
+INFO 2021-07-18 01:05:47,717 views 211 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 01:05:47,951 views 200 从前端拿到模块的module_id为：1
+INFO 2021-07-18 01:05:47,954 views 211 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 01:05:48,101 views 200 从前端拿到模块的module_id为：1
+INFO 2021-07-18 01:05:48,104 views 211 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 01:05:48,254 views 200 从前端拿到模块的module_id为：1
+INFO 2021-07-18 01:05:48,257 views 211 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 01:05:49,136 views 34 ===========目前正在导入的模块是：登录============
+INFO 2021-07-18 01:05:49,137 views 38 ===========Excel增加模块：登录============
+INFO 2021-07-18 01:05:49,139 views 53 ===========增加模块：登录 成功============
+INFO 2021-07-18 01:05:49,140 views 55 导入成功
+INFO 2021-07-18 01:07:23,952 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 01:07:23,956 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 01:07:32,548 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 01:07:32,551 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 01:07:32,715 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 01:07:32,717 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 01:07:32,808 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 01:07:32,811 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 01:07:35,569 views 30 ===========目前正在导入的模块是：登录============
+INFO 2021-07-18 01:07:35,570 views 34 ===========Excel增加模块：登录============
+INFO 2021-07-18 01:07:35,572 views 49 ===========增加模块：登录 成功============
+INFO 2021-07-18 01:07:35,574 views 51 导入成功
+INFO 2021-07-18 01:08:45,392 views 106 上传文件file:2021-07-18-01-05-49.csv
+INFO 2021-07-18 01:08:45,393 views 119 读取文件结束
+INFO 2021-07-18 01:08:45,393 views 123 文件路径为：static\2021-07-18-01-05-4920210718-010845.csv
+ERROR 2021-07-18 01:08:45,489 views 139 上传出现问题o
+INFO 2021-07-18 01:08:45,504 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 01:08:45,506 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 01:10:29,979 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 01:10:29,982 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 01:10:31,146 views 30 ===========目前正在导入的模块是：登录============
+INFO 2021-07-18 01:10:31,147 views 34 ===========Excel增加模块：登录============
+INFO 2021-07-18 01:10:31,149 views 49 ===========增加模块：登录 成功============
+INFO 2021-07-18 01:10:31,150 views 51 导入成功
+INFO 2021-07-18 01:10:42,735 views 106 上传文件file:2021-07-18-01-10-31.csv
+INFO 2021-07-18 01:10:42,736 views 119 读取文件结束
+INFO 2021-07-18 01:10:42,737 views 123 文件路径为：static\2021-07-18-01-10-3120210718-011042.csv
+ERROR 2021-07-18 01:10:42,737 views 139 上传出现问题o
+INFO 2021-07-18 01:10:42,746 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 01:10:42,748 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:27:27,857 views 106 上传文件file:2021-07-18-01-10-31.csv
+INFO 2021-07-18 11:27:27,858 views 119 读取文件结束
+INFO 2021-07-18 11:27:27,858 views 123 文件路径为：static\2021-07-18-01-10-3120210718-112727.csv
+ERROR 2021-07-18 11:27:27,859 views 139 上传出现问题o
+INFO 2021-07-18 11:27:27,878 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:27:27,880 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:27:30,113 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:27:30,115 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:27:50,192 views 106 上传文件file:2021-07-18-01-10-31.csv
+INFO 2021-07-18 11:27:50,192 views 119 读取文件结束
+INFO 2021-07-18 11:27:50,193 views 123 文件路径为：static\2021-07-18-01-10-3120210718-112750.csv
+ERROR 2021-07-18 11:27:50,193 views 139 上传出现问题o
+INFO 2021-07-18 11:27:50,206 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:27:50,208 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:27:53,167 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:27:53,170 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:27:53,514 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:27:53,516 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:27:53,719 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:27:53,721 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:27:53,896 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:27:53,898 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:27:54,200 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:27:54,202 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:27:54,381 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:27:54,383 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:27:54,501 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:27:54,504 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:27:54,657 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:27:54,660 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:27:54,811 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:27:54,814 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:27:55,047 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:27:55,050 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:28:23,313 views 106 上传文件file:工作簿1.csv
+INFO 2021-07-18 11:28:23,314 views 119 读取文件结束
+INFO 2021-07-18 11:28:23,314 views 123 文件路径为：static\工作簿120210718-112823.csv
+ERROR 2021-07-18 11:28:23,318 views 139 上传出现问题o
+INFO 2021-07-18 11:28:23,330 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:28:23,331 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:30:02,612 views 30 ===========目前正在导入的模块是：登录============
+INFO 2021-07-18 11:30:02,614 views 34 ===========Excel增加模块：登录============
+INFO 2021-07-18 11:30:02,617 views 51 导入成功
+INFO 2021-07-18 11:30:59,534 views 30 ===========目前正在导出的模块是：登录============
+INFO 2021-07-18 11:30:59,535 views 34 ===========Excel增加模块：登录============
+INFO 2021-07-18 11:30:59,536 views 51 导出成功
+INFO 2021-07-18 11:31:54,001 views 106 上传文件file:2021-07-18-01-10-31.csv
+INFO 2021-07-18 11:31:54,002 views 119 读取文件结束
+INFO 2021-07-18 11:31:54,002 views 123 文件路径为：static\2021-07-18-01-10-3120210718-113154.csv
+ERROR 2021-07-18 11:31:54,003 views 139 上传出现问题o
+INFO 2021-07-18 11:31:54,022 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:31:54,024 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:32:22,476 views 106 上传文件file:testc.csv
+INFO 2021-07-18 11:32:22,477 views 119 读取文件结束
+INFO 2021-07-18 11:32:22,477 views 123 文件路径为：static\testc20210718-113222.csv
+INFO 2021-07-18 11:32:22,549 views 196 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:32:22,550 views 207 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:32:26,099 views 30 ===========目前正在导出的模块是：登录============
+INFO 2021-07-18 11:32:26,100 views 34 ===========Excel增加模块：登录============
+INFO 2021-07-18 11:32:26,101 views 49 ===========导出模块：登录 成功============
+INFO 2021-07-18 11:32:26,102 views 51 导出成功
+INFO 2021-07-18 11:35:30,174 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:35:30,177 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:35:33,678 views 30 ===========目前正在导出的模块是：登录============
+INFO 2021-07-18 11:35:33,679 views 34 ===========Excel增加模块：登录============
+INFO 2021-07-18 11:35:33,681 views 51 ===========导出模块：登录 成功============
+INFO 2021-07-18 11:35:33,683 views 53 导出成功
+INFO 2021-07-18 11:36:19,225 views 30 ===========目前正在导出的模块是：登录============
+INFO 2021-07-18 11:36:19,227 views 34 ===========Excel增加模块：登录============
+INFO 2021-07-18 11:36:19,228 views 51 ===========导出模块：登录 成功============
+INFO 2021-07-18 11:36:19,229 views 53 导出成功
+INFO 2021-07-18 11:37:57,438 views 108 上传文件file:testc.csv
+INFO 2021-07-18 11:37:57,439 views 121 读取文件结束
+INFO 2021-07-18 11:37:57,439 views 125 文件路径为：static\testc20210718-113757.csv
+ERROR 2021-07-18 11:37:57,554 views 141 上传出现问题o
+INFO 2021-07-18 11:37:57,575 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:37:57,577 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:38:06,865 views 108 上传文件file:2021-07-18-11-36-19.csv
+INFO 2021-07-18 11:38:06,867 views 121 读取文件结束
+INFO 2021-07-18 11:38:06,867 views 125 文件路径为：static\2021-07-18-11-36-1920210718-113806.csv
+ERROR 2021-07-18 11:38:06,867 views 141 上传出现问题o
+INFO 2021-07-18 11:38:06,878 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:38:06,879 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:38:08,661 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:38:08,663 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:38:09,206 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:38:09,208 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:38:09,364 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:38:09,366 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:41:01,896 views 108 上传文件file:工作簿1.csv
+INFO 2021-07-18 11:41:01,968 views 121 读取文件结束
+INFO 2021-07-18 11:41:01,969 views 125 文件路径为：static\工作簿120210718-114101.csv
+INFO 2021-07-18 11:41:02,082 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:41:02,084 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:41:19,634 views 108 上传文件file:工作簿1.csv
+INFO 2021-07-18 11:41:19,634 views 121 读取文件结束
+INFO 2021-07-18 11:41:19,635 views 125 文件路径为：static\工作簿120210718-114119.csv
+INFO 2021-07-18 11:41:19,713 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:41:19,715 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:41:22,556 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:41:22,558 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:41:35,080 views 108 上传文件file:2021-07-18-11-36-19.csv
+INFO 2021-07-18 11:41:35,081 views 121 读取文件结束
+INFO 2021-07-18 11:41:35,081 views 125 文件路径为：static\2021-07-18-11-36-1920210718-114135.csv
+ERROR 2021-07-18 11:41:35,081 views 141 上传出现问题o
+INFO 2021-07-18 11:41:35,091 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:41:35,093 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:42:34,881 views 108 上传文件file:2021-07-18-11-36-19.csv
+INFO 2021-07-18 11:42:34,882 views 121 读取文件结束
+INFO 2021-07-18 11:42:34,882 views 125 文件路径为：static\2021-07-18-11-36-1920210718-114234.csv
+ERROR 2021-07-18 11:42:34,883 views 141 上传出现问题o
+INFO 2021-07-18 11:42:34,895 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:42:34,897 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:42:49,608 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:42:49,610 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:42:51,207 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:42:51,209 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:42:51,332 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:42:51,334 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:42:51,481 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:42:51,483 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:42:51,617 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:42:51,620 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:42:51,754 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:42:51,756 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:46:45,542 views 110 上传文件为空
+INFO 2021-07-18 11:46:45,555 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:46:45,557 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:52:14,053 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:52:14,057 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:52:14,756 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:52:14,758 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:52:14,908 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:52:14,910 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:52:15,046 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:52:15,048 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:52:15,183 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:52:15,185 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:52:15,323 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:52:15,326 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:52:15,447 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:52:15,449 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:52:15,595 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:52:15,597 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:52:21,389 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:52:21,392 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:52:43,486 views 30 ===========目前正在导出的模块是：登录============
+INFO 2021-07-18 11:52:43,486 views 34 ===========Excel增加模块：登录============
+INFO 2021-07-18 11:52:43,487 views 51 ===========导出模块：登录 成功============
+INFO 2021-07-18 11:52:43,488 views 53 导出成功
+INFO 2021-07-18 11:52:44,112 views 30 ===========目前正在导出的模块是：登录============
+INFO 2021-07-18 11:52:44,113 views 34 ===========Excel增加模块：登录============
+INFO 2021-07-18 11:52:44,115 views 51 ===========导出模块：登录 成功============
+INFO 2021-07-18 11:52:44,117 views 53 导出成功
+INFO 2021-07-18 11:53:40,989 views 108 上传文件file:2021-07-18-11-52-44.csv
+INFO 2021-07-18 11:53:40,990 views 121 读取文件结束
+INFO 2021-07-18 11:53:40,990 views 125 文件路径为：static\2021-07-18-11-52-4420210718-115340.csv
+ERROR 2021-07-18 11:53:40,991 views 141 上传出现问题o
+INFO 2021-07-18 11:53:41,012 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:53:41,015 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:53:43,435 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:53:43,438 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:53:44,100 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:53:44,103 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:53:44,244 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:53:44,246 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:53:44,403 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:53:44,405 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:55:54,833 views 110 上传文件为空
+INFO 2021-07-18 11:55:54,863 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:55:54,878 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:55:56,160 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:55:56,163 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:55:57,104 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:55:57,106 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:55:57,303 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:55:57,306 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:55:57,463 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:55:57,466 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:55:57,642 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:55:57,644 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:55:57,992 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:55:57,994 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:55:58,135 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:55:58,138 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:55:58,310 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:55:58,313 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:55:58,456 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:55:58,459 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:55:58,615 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:55:58,617 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:55:58,743 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:55:58,745 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:56:00,632 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:56:00,635 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:56:08,776 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:56:08,779 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:56:11,418 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 11:56:11,420 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 11:56:51,284 views 31 ===========目前正在导出的模块是：登录============
+INFO 2021-07-18 11:56:51,285 views 35 ===========Excel增加模块：登录============
+INFO 2021-07-18 11:56:51,287 views 51 ===========导出模块：登录 成功============
+INFO 2021-07-18 11:56:51,289 views 53 导出成功
+INFO 2021-07-18 12:00:45,062 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 12:00:45,064 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 12:00:52,140 views 110 上传文件为空
+INFO 2021-07-18 12:00:52,157 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 12:00:52,158 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 12:00:52,825 views 31 ===========目前正在导出的模块是：登录============
+INFO 2021-07-18 12:00:52,827 views 35 ===========Excel增加模块：登录============
+INFO 2021-07-18 12:00:52,829 views 51 ===========导出模块：登录 成功============
+INFO 2021-07-18 12:00:52,830 views 53 导出成功
+INFO 2021-07-18 12:02:43,321 views 108 上传文件file:2021-07-18-11-52-44.csv
+INFO 2021-07-18 12:02:43,321 views 121 读取文件结束
+INFO 2021-07-18 12:02:43,322 views 125 文件路径为：static\2021-07-18-11-52-4420210718-120243.csv
+ERROR 2021-07-18 12:02:43,322 views 141 上传出现问题o
+INFO 2021-07-18 12:02:43,339 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 12:02:43,341 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 12:02:56,937 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 12:02:56,940 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 12:03:02,564 views 108 上传文件file:2021-07-18-11-52-44.csv
+INFO 2021-07-18 12:03:02,565 views 121 读取文件结束
+INFO 2021-07-18 12:03:02,566 views 125 文件路径为：static\2021-07-18-11-52-4420210718-120302.csv
+ERROR 2021-07-18 12:03:02,566 views 141 上传出现问题o
+INFO 2021-07-18 12:03:02,581 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 12:03:02,584 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 12:03:36,274 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 12:03:36,276 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 12:03:42,394 views 108 上传文件file:2021-07-18-11-52-44.csv
+INFO 2021-07-18 12:03:42,395 views 121 读取文件结束
+INFO 2021-07-18 12:03:42,395 views 125 文件路径为：static\2021-07-18-11-52-4420210718-120342.csv
+ERROR 2021-07-18 12:03:42,396 views 141 上传出现问题'gbk' codec can't decode byte 0xb1 in position 5: illegal multibyte sequence
+INFO 2021-07-18 12:03:42,410 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 12:03:42,412 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 12:04:28,922 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 12:04:28,925 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 12:04:38,010 views 108 上传文件file:2021-07-18-11-52-44.csv
+INFO 2021-07-18 12:04:38,011 views 121 读取文件结束
+INFO 2021-07-18 12:04:38,012 views 125 文件路径为：static\2021-07-18-11-52-4420210718-120438.csv
+ERROR 2021-07-18 12:04:38,012 views 141 上传出现问题iterator should return strings, not bytes (did you open the file in text mode?)
+INFO 2021-07-18 12:04:38,026 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 12:04:38,028 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 12:05:07,316 views 108 上传文件file:2021-07-18-12-00-52.csv
+INFO 2021-07-18 12:05:07,317 views 121 读取文件结束
+INFO 2021-07-18 12:05:07,317 views 125 文件路径为：static\2021-07-18-12-00-5220210718-120507.csv
+ERROR 2021-07-18 12:05:07,317 views 141 上传出现问题iterator should return strings, not bytes (did you open the file in text mode?)
+INFO 2021-07-18 12:05:07,328 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 12:05:07,330 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 12:06:24,430 views 108 上传文件file:2021-07-18-12-00-52.csv
+INFO 2021-07-18 12:06:24,431 views 121 读取文件结束
+INFO 2021-07-18 12:06:24,431 views 125 文件路径为：static\2021-07-18-12-00-5220210718-120624.csv
+ERROR 2021-07-18 12:06:24,432 views 141 上传出现问题'utf-8' codec can't decode byte 0xd0 in position 0: invalid continuation byte
+INFO 2021-07-18 12:06:24,452 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 12:06:24,455 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 12:12:36,835 views 31 ===========目前正在导出的模块是：登录============
+INFO 2021-07-18 12:12:36,836 views 35 ===========Excel增加模块：登录============
+INFO 2021-07-18 12:12:36,838 views 51 ===========导出模块：登录 成功============
+INFO 2021-07-18 12:12:36,840 views 53 导出成功
+INFO 2021-07-18 12:25:05,088 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 12:25:05,091 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 12:30:21,853 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 12:30:21,857 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 12:30:37,925 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 12:30:37,927 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 12:30:42,349 views 110 上传文件为空
+INFO 2021-07-18 12:30:42,362 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 12:30:42,364 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 12:30:49,950 views 110 上传文件为空
+INFO 2021-07-18 12:30:49,965 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 12:30:49,967 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-18 12:33:37,166 views 31 ===========目前正在导出的模块是：登录============
+INFO 2021-07-18 12:33:37,169 views 35 ===========Excel增加模块：登录============
+INFO 2021-07-18 12:33:37,172 views 51 ===========导出模块：登录 成功============
+INFO 2021-07-18 12:33:37,173 views 53 导出成功
+INFO 2021-07-18 12:41:08,623 views 198 从前端拿到模块的module_id为：1
+INFO 2021-07-18 12:41:08,628 views 209 取出所有的模块为：<QuerySet [<DB_module: 登录>]>

@@ -2,9 +2,14 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/CaseManagement/data/testcase.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/TestCaseManagement/weng2.csv" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestCaseManagement/weng23.csv" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/static/2021-06-27-15-10-36.csv" charset="GBK" />
     <file url="file://$PROJECT_DIR$/static/2021-06-27-15-10-3620210704-185350.csv" charset="GBK" />
     <file url="file://$PROJECT_DIR$/static/2021-06-27-15-10-3620210704-185455.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/static/2021-07-17-23-00-5320210717-232730.csv" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/static/2021-07-18-01-10-3120210718-011042.csv" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/static/2021-07-18-11-52-4420210718-115340.csv" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>
