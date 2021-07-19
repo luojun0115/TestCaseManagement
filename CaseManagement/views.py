@@ -19,34 +19,36 @@ from TestCaseManagement.settings import logger
 # 用例导出
 def case_export(request):
     response = HttpResponse(content_type='text/csv')
+    # response = HttpResponse(content_type='application/octet-stream')
     response['Content-Disposition'] = 'attachment; filename=%s.csv' % (
         datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
     )
     response.charset = 'utf-8'
     import xlwt  # 导入模块
-    wb = xlwt.Workbook(encoding='ascii')  # 创建新的Excel
+    wb = xlwt.Workbook(encoding='utf-8')  # 创建新的Excel
+
     module_all = DB_module.objects.all()
     # 遍历得到所有的模块
     for module in module_all:
         logger.info("===========目前正在导出的模块是：%s============" % module)
         case_list_all = DB_testcase.objects.filter(t_module=module).values_list()
 
-        ws = wb.add_sheet(str(module.t_module_name), cell_overwrite_ok=True)
+        ws = wb.add_sheet(module.t_module_name, cell_overwrite_ok=True)
         logger.info("===========Excel增加模块：%s============" % module)
         if len(case_list_all) >= 1:
             i = 0
             # 1, 登录, p1, 验证登录是否成功, 1.。。2。。。3.。。, 环境准备就绪, 登录成功, 登录成功, 登录成功
             for case_list in case_list_all:
-                print(case_list)
-                ws.write(i, 0, label=str(case_list[0]))  # 用例编号
-                ws.write(i, 1, label=str(module.t_module_name))  # 所属模块
-                ws.write(i, 2, label=str(case_list[1]))  # 优先级
-                ws.write(i, 3, label=str(case_list[2]))  # 测试目的
-                ws.write(i, 4, label=str(case_list[3]))  # 前置条件
-                ws.write(i, 5, label=str(case_list[4]))  # 测试步骤
-                ws.write(i, 6, label=str(case_list[5]))  # 预期结果
-                ws.write(i, 7, label=str(case_list[6]))  # 备注
-                ws.write(i, 8, label=str(case_list[7]))  # 实际结果
+
+                ws.write(i, 0, label=case_list[0])  # 用例编号
+                ws.write(i, 1, label=module.t_module_name)  # 所属模块
+                ws.write(i, 2, label=case_list[1])  # 优先级
+                ws.write(i, 3, label=case_list[2])  # 测试目的
+                ws.write(i, 4, label=case_list[3])  # 前置条件
+                ws.write(i, 5, label=case_list[4])  # 测试步骤
+                ws.write(i, 6, label=case_list[5])  # 预期结果
+                ws.write(i, 7, label=case_list[6])  # 备注
+                ws.write(i, 8, label=case_list[7])  # 实际结果
                 i += 1
             logger.info("===========导出模块：%s 成功============" % module)
     wb.save(response)
@@ -124,7 +126,7 @@ def upload_file(request):
         file_full_path = 'static' + os.sep + file_name_new
         logger.info('文件路径为：%s' % file_full_path)
         try:
-            with open(file_full_path, 'r',encoding='utf-8') as f:
+            with open(file_full_path, 'r') as f:
                 reader = csv.reader(f)
                 for row in reader:
                     DB_testcase.objects.create(

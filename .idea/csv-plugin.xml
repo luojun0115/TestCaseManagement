@@ -3,17 +3,10 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="C:\Users\luojun\Downloads\testc.csv">
+        <entry key="C:\Users\luojun\Downloads\2021-07-20-00-18-05.csv">
           <value>
             <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\2021-06-22-21-44-56.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
+              <option name="separator" value="&#9;" />
             </Attribute>
           </value>
         </entry>
@@ -31,91 +24,70 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\TestCaseManagement\weng2.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="&#9;" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\TestCaseManagement\weng23.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="&#9;" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\static\2021-06-22-21-44-5620210713-004339.csv">
+        <entry key="\static\11120210720-002407.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\static\2021-06-27-15-10-3620210704-212152.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\static\2021-06-27-15-10-3620210704-212403.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\static\2021-06-27-15-10-3620210708-234803.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\static\2021-07-17-23-00-5320210717-232730.csv">
+        <entry key="\static\2021-07-19-22-09-1620210719-220932.csv">
           <value>
             <Attribute>
               <option name="separator" value="&#9;" />
             </Attribute>
           </value>
         </entry>
-        <entry key="\static\2021-07-18-00-40-4920210718-004101.csv">
+        <entry key="\static\2021-07-20-00-18-05.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\static\2021-07-20-00-18-0520210720-001811.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\static\2021-07-20-00-18-0520210720-002034.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\static\2021-07-20-00-18-0520210720-002310.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\static\2021-07-20-00-18-0520210720-002549.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\static\testc.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\static\2021-07-18-01-05-49.csv">
+        <entry key="\static\testc20210718-113757.csv">
           <value>
             <Attribute>
-              <option name="separator" value="&#9;" />
+              <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\static\2021-07-18-01-05-4920210718-010845.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="&#9;" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\static\2021-07-18-01-10-3120210718-011042.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="&#9;" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\static\2021-07-18-11-52-4420210718-115340.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=":" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\static\工作簿120210718-112823.csv">
+        <entry key="\static\工作簿120210718-114101.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
