@@ -4,37 +4,15 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    <form action="/upload_file/" method="post" enctype="multipart/form-data">
-        {% csrf_token %}
-        #  注意 enctype="multipart/form-data"
-        <input type="file" name="file"> <input type="submit" value="上传" οnchange="getImgURL(this)"> </form> </body> </html>
 
-<br><br><br>
-<input type="file" οnchange="getImgURL(this)"/>
-<br><br>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
 <body>
     <form action="/upload_file/" method="post" enctype="multipart/form-data">
         {% csrf_token %}
         #  注意 enctype="multipart/form-data"
         <input type="file" name="file">
-        <input type="submit" value="上传"> </form>
+        <button type="submit">提交</button>
 
-
-
-<script></script>
+        </form>
 </body>
+
 </html>

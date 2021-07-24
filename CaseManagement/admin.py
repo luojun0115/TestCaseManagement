@@ -5,8 +5,10 @@ from django.contrib import admin
 
 # Register your models here.
 from django.http import HttpResponse
+from import_export import resources
+from import_export.admin import ImportExportModelAdmin
 
-from CaseManagement.models import DB_testcase, DB_module,Article,ArticleCategory
+from CaseManagement.models import DB_testcase, DB_module, Article, ArticleCategory
 
 exportable_fields = (
     't_module',
@@ -38,7 +40,7 @@ def export_model_as_csv(modeladmin, request, queryset):
 # https://blog.csdn.net/weixin_30539625/article/details/101325340
 
 
-export_model_as_csv.short_description = '测试数据导出到CSV_我去挣钱'
+export_model_as_csv.short_description = '导出到CSV_我去挣钱'
 
 
 class TestCaseAdmin(admin.ModelAdmin):
@@ -55,9 +57,25 @@ class TestCaseAdmin(admin.ModelAdmin):
     ]
 
 
+# class BookResource(resources.ModelResource):
+#     class Meta:
+#         model = DB_testcase
+#         export_order = ('t_priority', 't_precondition')
+# @admin.register(DB_testcase)
+# class BookAdmin(ImportExportModelAdmin):
+#     list_display = [
+#         't_module',
+#         't_priority',
+#         't_purpose',
+#         't_steps',
+#         't_precondition',
+#         't_expected_result',
+#         't_actual_result',
+#         't_remark',
+#     ]
+#     resource_class = BookResource
+
 admin.site.register(DB_testcase, TestCaseAdmin)
 admin.site.register(DB_module)
 admin.site.register(Article)
 admin.site.register(ArticleCategory)
-
-

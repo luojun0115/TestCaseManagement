@@ -4,42 +4,38 @@ import datetime
 import json
 import os
 import time
-
+import xlrd
+import xlwt
+from django.contrib import admin
 from django.core.paginator import Paginator
-from django.http import HttpResponseBadRequest, HttpResponseNotFound, HttpResponse, JsonResponse, HttpResponseRedirect
+from django.http import HttpResponseBadRequest, HttpResponseNotFound, HttpResponse, JsonResponse, HttpResponseRedirect, \
+    StreamingHttpResponse
 from django.shortcuts import render, redirect
 
 # Create your views here.
 from django.views.decorators.csrf import csrf_exempt
 
+from CaseManagement.management.commands.export_testcase import AdminReport
 from CaseManagement.models import DB_testcase, DB_module, Article, ArticleCategory
+from TestCaseManagement import settings
 from TestCaseManagement.settings import logger
 
+filename = datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
 
 # 用例导出
 def case_export(request):
-    response = HttpResponse(content_type='text/csv')
-    # response = HttpResponse(content_type='application/octet-stream')
-    response['Content-Disposition'] = 'attachment; filename=%s.csv' % (
-        datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
-    )
-    response.charset = 'utf-8'
-    import xlwt  # 导入模块
     wb = xlwt.Workbook(encoding='utf-8')  # 创建新的Excel
-
     module_all = DB_module.objects.all()
     # 遍历得到所有的模块
     for module in module_all:
         logger.info("===========目前正在导出的模块是：%s============" % module)
         case_list_all = DB_testcase.objects.filter(t_module=module).values_list()
-
         ws = wb.add_sheet(module.t_module_name, cell_overwrite_ok=True)
         logger.info("===========Excel增加模块：%s============" % module)
         if len(case_list_all) >= 1:
             i = 0
             # 1, 登录, p1, 验证登录是否成功, 1.。。2。。。3.。。, 环境准备就绪, 登录成功, 登录成功, 登录成功
             for case_list in case_list_all:
-
                 ws.write(i, 0, label=case_list[0])  # 用例编号
                 ws.write(i, 1, label=module.t_module_name)  # 所属模块
                 ws.write(i, 2, label=case_list[1])  # 优先级
@@ -51,7 +47,21 @@ def case_export(request):
                 ws.write(i, 8, label=case_list[7])  # 实际结果
                 i += 1
             logger.info("===========导出模块：%s 成功============" % module)
-    wb.save(response)
+    wb.save("%s" % (filename))
+
+    def file_iterator(filename, chuck_size=512):
+        with open(filename, "rb") as f:
+            while True:
+                c = f.read(chuck_size)
+                if c:
+                    yield c
+                else:
+                    break
+
+    response = StreamingHttpResponse(file_iterator(filename))
+    response['Content-Type'] = 'application/octet-stream'
+    response['Content-Disposition'] = 'attachment;filename="{}"'.format("result.xls")
+    return response
     logger.info("导出成功")
     return response
 
@@ -99,51 +109,84 @@ def model_one_add(request):
 
 # 用例上传
 def upload_file(request):
-    # 首先判断文件请求类型
-    if str(request.method).upper() == 'GET':
-        logger.info('GET方法请求：upload_file')
-        return render(request, 'templates/testcase.html')
+    file = request.FILES['file']
+    url = settings.BASE_DIR + '/static/' + file.name
+    # 文件复制一份放在static目录下面
+    with open(url, 'wb')as f:
+        for data in file.chunks():
+            f.write(data)
 
-    elif str(request.method).upper() == 'POST':
-        try:
-            file_obj = request.FILES.get('file')
-            logger.info('上传文件file:%s' % file_obj.name)
-        except Exception as e:
-            logger.info('上传文件为空')
-            # return HttpResponseBadRequest('未上传任何文件')
-            return redirect('/testcase1')
-        file_name_old = file_obj.name
-        # 拼接一下文件名称，避免重复
-        file_name_new = file_name_old.split('.')[0] + time.strftime('%Y%m%d-%H%M%S') + "." + file_name_old.split('.')[1]
-        try:
-            with open('static/' + file_name_new, 'wb') as f:
-                for line in file_obj.chunks():
-                    f.write(line)
-            f.close()
-            logger.info('读取文件结束')
-        except Exception as e:
-            logger.error('读取文件异常')
-        file_full_path = 'static' + os.sep + file_name_new
-        logger.info('文件路径为：%s' % file_full_path)
-        try:
-            with open(file_full_path, 'r') as f:
-                reader = csv.reader(f)
-                for row in reader:
-                    DB_testcase.objects.create(
-                        t_module=DB_module.objects.filter(t_module_name=row[1]).first(),
-                        t_priority=row[2],  #
-                        t_purpose=row[3],
-                        t_precondition=row[4],
-                        t_steps=row[5],
-                        t_expected_result=row[6],
-                        t_actual_result=row[7],
-                        t_remark=row[8],
-                    )
-        except Exception as e:
-            logger.error('上传出现问题%s' %e)
+    import xlrd
+    # 打开指定路径的Excel文件
+    workbook = xlrd.open_workbook(url)
+    # 获取所有的sheet
+    sheets = workbook.sheets()
+    for sheet in sheets:
+        # 获取行数
+        nrows = sheet.nrows
+        for x in range(0, nrows):
+            # row表示某一行的所有数据，是一个列表
+            row = sheet.row_values(x)
+            DB_testcase.objects.create(
+                t_module=DB_module.objects.filter(t_module_name=row[1]).first(),
+                t_priority=row[2],  #
+                t_purpose=row[3],
+                t_precondition=row[4],
+                t_steps=row[5],
+                t_expected_result=row[6],
+                t_actual_result=row[7],
+                t_remark=row[8],
+            )
 
-        return redirect('/testcase1')
+    return redirect('/testcase1')
 
+
+# 用例上传
+# def upload_file2(request):
+#     # 首先判断文件请求类型
+#     if str(request.method).upper() == 'GET':
+#         logger.info('GET方法请求：upload_file')
+#         return render(request, 'templates/testcase.html')
+#
+#     elif str(request.method).upper() == 'POST':
+#         try:
+#             file_obj = request.FILES.get('file')
+#             logger.info('上传文件file:%s' % file_obj.name)
+#         except Exception as e:
+#             logger.info('上传文件为空')
+#             # return HttpResponseBadRequest('未上传任何文件')
+#             return redirect('/testcase1')
+#         file_name_old = file_obj.name
+#         # 拼接一下文件名称，避免重复
+#         file_name_new = file_name_old.split('.')[0] + time.strftime('%Y%m%d-%H%M%S') + "." + file_name_old.split('.')[1]
+#         try:
+#             with open('static/' + file_name_new, 'wb') as f:
+#                 for line in file_obj.chunks():
+#                     f.write(line)
+#             f.close()
+#             logger.info('读取文件结束')
+#         except Exception as e:
+#             logger.error('读取文件异常')
+#         file_full_path = 'static' + os.sep + file_name_new
+#         logger.info('文件路径为：%s' % file_full_path)
+#         try:
+#             with open(file_full_path, 'r') as f:
+#                 reader = csv.reader(f)
+#                 for row in reader:
+#                     DB_testcase.objects.create(
+#                         t_module=DB_module.objects.filter(t_module_name=row[1]).first(),
+#                         t_priority=row[2],  #
+#                         t_purpose=row[3],
+#                         t_precondition=row[4],
+#                         t_steps=row[5],
+#                         t_expected_result=row[6],
+#                         t_actual_result=row[7],
+#                         t_remark=row[8],
+#                     )
+#         except Exception as e:
+#             logger.error('上传出现问题%s' % e)
+#
+#         return redirect('/testcase1')
 
 def testcase3(request):
     logger.info('访问testcase3页面')

@@ -6193,3 +6193,217 @@ INFO 2021-07-20 00:45:49,398 views 200 从前端拿到模块的module_id为：1
 INFO 2021-07-20 00:45:49,400 views 211 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
 INFO 2021-07-20 00:45:50,822 views 200 从前端拿到模块的module_id为：1
 INFO 2021-07-20 00:45:50,823 views 211 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:12:45,932 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:12:45,945 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:12:54,084 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:12:54,087 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:13:03,755 views 119 上传文件为空
+INFO 2021-07-21 23:13:03,773 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:13:03,775 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:15:01,138 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:15:01,140 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:15:04,752 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:15:04,754 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:15:05,364 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:15:05,366 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:35:49,161 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:35:49,166 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:37:21,903 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:37:21,905 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:37:26,808 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:37:26,811 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:37:27,377 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:37:27,379 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:37:29,545 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:37:29,546 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:37:30,248 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:37:30,250 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:37:30,673 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:37:30,675 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:37:31,217 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:37:31,219 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:37:31,575 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:37:31,577 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:37:31,885 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:37:31,887 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:37:35,472 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:37:35,474 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:37:55,554 views 119 上传文件为空
+INFO 2021-07-21 23:37:55,564 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:37:55,566 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:37:57,730 views 119 上传文件为空
+INFO 2021-07-21 23:37:57,750 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:37:57,751 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:38:12,189 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:38:12,190 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:38:12,766 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:38:12,768 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:38:13,536 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:38:13,538 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:38:13,984 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:38:13,985 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:38:14,909 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:38:14,911 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:38:15,377 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:38:15,379 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:38:15,849 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:38:15,851 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:38:16,288 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:38:16,292 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:38:16,923 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:38:16,926 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-21 23:38:17,271 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-21 23:38:17,274 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-22 00:19:30,870 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-22 00:19:30,872 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-22 00:45:36,729 views 207 从前端拿到模块的module_id为：1
+INFO 2021-07-22 00:45:36,733 views 218 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 21:15:44,081 views 209 从前端拿到模块的module_id为：1
+INFO 2021-07-24 21:15:44,119 views 220 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 21:16:37,115 views 209 从前端拿到模块的module_id为：1
+INFO 2021-07-24 21:16:37,117 views 220 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 21:17:36,507 views 210 从前端拿到模块的module_id为：1
+INFO 2021-07-24 21:17:36,510 views 221 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 21:24:01,247 views 37 ===========目前正在导出的模块是：登录============
+INFO 2021-07-24 21:24:01,249 views 41 ===========Excel增加模块：登录============
+INFO 2021-07-24 21:24:01,253 views 56 ===========导出模块：登录 成功============
+INFO 2021-07-24 21:24:01,253 views 37 ===========目前正在导出的模块是：注册============
+INFO 2021-07-24 21:24:01,254 views 41 ===========Excel增加模块：注册============
+INFO 2021-07-24 21:24:01,255 views 56 ===========导出模块：注册 成功============
+INFO 2021-07-24 21:24:01,255 views 37 ===========目前正在导出的模块是：商品============
+INFO 2021-07-24 21:24:01,256 views 41 ===========Excel增加模块：商品============
+INFO 2021-07-24 21:24:01,257 views 56 ===========导出模块：商品 成功============
+INFO 2021-07-24 21:24:07,066 views 217 从前端拿到模块的module_id为：1
+INFO 2021-07-24 21:24:07,068 views 228 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 21:25:36,163 views 127 上传文件file:result.xls
+INFO 2021-07-24 21:25:36,163 views 140 读取文件结束
+INFO 2021-07-24 21:25:36,163 views 144 文件路径为：static\result20210724-212536.xls
+ERROR 2021-07-24 21:25:36,249 views 160 上传出现问题'gbk' codec can't decode byte 0xb1 in position 5: illegal multibyte sequence
+INFO 2021-07-24 21:25:36,260 views 217 从前端拿到模块的module_id为：1
+INFO 2021-07-24 21:25:36,262 views 228 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 21:25:38,244 views 217 从前端拿到模块的module_id为：1
+INFO 2021-07-24 21:25:38,246 views 228 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 21:25:41,393 views 217 从前端拿到模块的module_id为：1
+INFO 2021-07-24 21:25:41,395 views 228 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 21:37:47,064 views 248 从前端拿到模块的module_id为：1
+INFO 2021-07-24 21:37:47,067 views 259 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 21:37:48,410 views 248 从前端拿到模块的module_id为：1
+INFO 2021-07-24 21:37:48,412 views 259 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 21:39:43,948 views 248 从前端拿到模块的module_id为：1
+INFO 2021-07-24 21:39:43,952 views 259 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 21:39:47,681 views 197 访问testcase3页面
+INFO 2021-07-24 21:42:25,112 views 197 访问testcase3页面
+INFO 2021-07-24 21:42:25,797 views 197 访问testcase3页面
+INFO 2021-07-24 21:42:25,996 views 197 访问testcase3页面
+INFO 2021-07-24 21:42:26,178 views 197 访问testcase3页面
+INFO 2021-07-24 21:42:34,164 views 197 访问testcase3页面
+INFO 2021-07-24 21:50:45,969 views 248 从前端拿到模块的module_id为：1
+INFO 2021-07-24 21:50:45,971 views 259 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 21:50:48,106 views 248 从前端拿到模块的module_id为：1
+INFO 2021-07-24 21:50:48,108 views 259 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 21:50:49,152 views 248 从前端拿到模块的module_id为：1
+INFO 2021-07-24 21:50:49,154 views 259 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 21:50:50,177 views 248 从前端拿到模块的module_id为：1
+INFO 2021-07-24 21:50:50,179 views 259 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 21:50:51,568 views 248 从前端拿到模块的module_id为：1
+INFO 2021-07-24 21:50:51,570 views 259 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:28:45,205 views 248 从前端拿到模块的module_id为：1
+INFO 2021-07-24 22:28:45,207 views 259 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:28:45,916 views 248 从前端拿到模块的module_id为：1
+INFO 2021-07-24 22:28:45,919 views 259 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:29:20,133 views 248 从前端拿到模块的module_id为：1
+INFO 2021-07-24 22:29:20,134 views 259 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:29:25,948 views 248 从前端拿到模块的module_id为：1
+INFO 2021-07-24 22:29:25,952 views 259 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:29:27,340 views 248 从前端拿到模块的module_id为：2
+INFO 2021-07-24 22:29:27,342 views 259 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:29:28,343 views 248 从前端拿到模块的module_id为：3
+INFO 2021-07-24 22:29:28,345 views 259 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:31:58,693 views 253 从前端拿到模块的module_id为：3
+INFO 2021-07-24 22:31:58,695 views 264 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:32:06,168 views 253 从前端拿到模块的module_id为：1
+INFO 2021-07-24 22:32:06,170 views 264 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:32:08,220 views 253 从前端拿到模块的module_id为：2
+INFO 2021-07-24 22:32:08,223 views 264 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:32:09,198 views 253 从前端拿到模块的module_id为：3
+INFO 2021-07-24 22:32:09,209 views 264 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:33:33,366 views 249 从前端拿到模块的module_id为：1
+INFO 2021-07-24 22:33:33,367 views 260 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:33:35,021 views 249 从前端拿到模块的module_id为：1
+INFO 2021-07-24 22:33:35,024 views 260 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:34:14,233 views 249 从前端拿到模块的module_id为：1
+INFO 2021-07-24 22:34:14,235 views 260 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:35:39,053 views 251 从前端拿到模块的module_id为：1
+INFO 2021-07-24 22:35:39,055 views 262 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:37:55,271 views 254 从前端拿到模块的module_id为：1
+INFO 2021-07-24 22:37:55,274 views 265 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:38:47,711 views 254 从前端拿到模块的module_id为：2
+INFO 2021-07-24 22:38:47,714 views 265 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:38:53,664 views 254 从前端拿到模块的module_id为：3
+INFO 2021-07-24 22:38:53,666 views 265 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:38:54,505 views 254 从前端拿到模块的module_id为：3
+INFO 2021-07-24 22:38:54,507 views 265 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:38:56,317 views 254 从前端拿到模块的module_id为：1
+INFO 2021-07-24 22:38:56,319 views 265 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:39:34,130 views 254 从前端拿到模块的module_id为：3
+INFO 2021-07-24 22:39:34,133 views 265 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:39:36,511 views 254 从前端拿到模块的module_id为：3
+INFO 2021-07-24 22:39:36,514 views 265 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:39:38,605 views 254 从前端拿到模块的module_id为：2
+INFO 2021-07-24 22:39:38,606 views 265 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:43:21,822 views 254 从前端拿到模块的module_id为：1
+INFO 2021-07-24 22:43:23,163 views 265 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:43:39,202 views 254 从前端拿到模块的module_id为：1
+INFO 2021-07-24 22:43:48,117 views 254 从前端拿到模块的module_id为：1
+INFO 2021-07-24 22:43:48,120 views 265 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:43:50,406 views 254 从前端拿到模块的module_id为：2
+INFO 2021-07-24 22:43:50,408 views 265 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:43:51,125 views 254 从前端拿到模块的module_id为：3
+INFO 2021-07-24 22:43:51,134 views 265 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:54:39,945 views 254 从前端拿到模块的module_id为：3
+INFO 2021-07-24 22:54:39,947 views 265 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:54:47,747 views 254 从前端拿到模块的module_id为：1
+INFO 2021-07-24 22:54:47,749 views 265 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:54:50,826 views 254 从前端拿到模块的module_id为：2
+INFO 2021-07-24 22:54:50,829 views 265 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 22:54:51,770 views 254 从前端拿到模块的module_id为：3
+INFO 2021-07-24 22:54:51,772 views 265 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 23:06:08,284 views 254 从前端拿到模块的module_id为：3
+INFO 2021-07-24 23:06:08,288 views 265 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 23:07:30,573 views 253 从前端拿到模块的module_id为：1
+INFO 2021-07-24 23:07:30,575 views 264 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 23:07:32,134 views 253 从前端拿到模块的module_id为：3
+INFO 2021-07-24 23:07:32,136 views 264 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 23:18:23,886 views 253 从前端拿到模块的module_id为：3
+INFO 2021-07-24 23:18:23,888 views 264 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 23:40:03,889 views 252 从前端拿到模块的module_id为：1
+INFO 2021-07-24 23:40:03,891 views 263 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 23:40:05,893 views 252 从前端拿到模块的module_id为：1
+INFO 2021-07-24 23:40:05,895 views 263 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 23:40:11,966 views 252 从前端拿到模块的module_id为：1
+INFO 2021-07-24 23:40:11,970 views 263 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 23:40:15,608 views 252 从前端拿到模块的module_id为：2
+INFO 2021-07-24 23:40:15,611 views 263 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 23:40:16,530 views 252 从前端拿到模块的module_id为：3
+INFO 2021-07-24 23:40:16,533 views 263 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 23:40:17,146 views 252 从前端拿到模块的module_id为：1
+INFO 2021-07-24 23:40:17,149 views 263 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 23:40:42,800 views 252 从前端拿到模块的module_id为：2
+INFO 2021-07-24 23:40:42,803 views 263 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 23:49:07,786 views 33 ===========目前正在导出的模块是：登录============
+INFO 2021-07-24 23:49:07,788 views 36 ===========Excel增加模块：登录============
+INFO 2021-07-24 23:49:07,788 views 51 ===========导出模块：登录 成功============
+INFO 2021-07-24 23:49:07,789 views 33 ===========目前正在导出的模块是：注册============
+INFO 2021-07-24 23:49:07,789 views 36 ===========Excel增加模块：注册============
+INFO 2021-07-24 23:49:07,790 views 51 ===========导出模块：注册 成功============
+INFO 2021-07-24 23:49:07,790 views 33 ===========目前正在导出的模块是：商品============
+INFO 2021-07-24 23:49:07,790 views 36 ===========Excel增加模块：商品============
+INFO 2021-07-24 23:49:07,791 views 51 ===========导出模块：商品 成功============
+INFO 2021-07-24 23:49:43,673 views 243 从前端拿到模块的module_id为：2
+INFO 2021-07-24 23:49:43,676 views 254 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 23:49:49,917 views 243 从前端拿到模块的module_id为：1
+INFO 2021-07-24 23:49:49,919 views 254 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 23:49:52,238 views 243 从前端拿到模块的module_id为：2
+INFO 2021-07-24 23:49:52,240 views 254 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-24 23:51:14,659 views 243 从前端拿到模块的module_id为：1
+INFO 2021-07-24 23:51:14,662 views 254 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>

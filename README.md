@@ -43,3 +43,7 @@ python manage.py  createsuperuser
 测试开发囤货
 
 ![img.png](img.png)
+
+
+
+[comment]: <> (https://www.cnblogs.com/zhaoyingjie/p/9566033.html)

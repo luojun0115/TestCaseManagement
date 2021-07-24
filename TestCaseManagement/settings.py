@@ -27,11 +27,12 @@ SECRET_KEY = 'qeh93m9st0@uq(yi&lm&bsleqrz&-rl$27-k+gdjx8oqlo)_f*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 # Application definition
 
 INSTALLED_APPS = [
+    'simpleui',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -39,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'CaseManagement.apps.CasemanagementConfig',
+    'import_export',
 ]
 
 MIDDLEWARE = [
@@ -103,9 +105,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-hans'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/shanghai'
 
 USE_I18N = True
 
@@ -158,3 +160,7 @@ LOGGING = {
         },
     }
 }
+
+
+
+

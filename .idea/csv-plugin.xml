@@ -31,45 +31,17 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\static\2021-07-19-22-09-1620210719-220932.csv">
+        <entry key="\static\result20210724-212536.csv">
           <value>
             <Attribute>
               <option name="separator" value="&#9;" />
             </Attribute>
           </value>
         </entry>
-        <entry key="\static\2021-07-20-00-18-05.csv">
+        <entry key="\static\ss20210720-004547.csv">
           <value>
             <Attribute>
-              <option name="separator" value="&#9;" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\static\2021-07-20-00-18-0520210720-001811.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="&#9;" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\static\2021-07-20-00-18-0520210720-002034.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="&#9;" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\static\2021-07-20-00-18-0520210720-002310.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="&#9;" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\static\2021-07-20-00-18-0520210720-002549.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="&#9;" />
+              <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
