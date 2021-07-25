@@ -15,7 +15,7 @@ from django.shortcuts import render, redirect
 # Create your views here.
 from django.views.decorators.csrf import csrf_exempt
 
-from CaseManagement.management.commands.export_testcase import AdminReport
+# from CaseManagement.management.commands.export_testcase import AdminReport
 from CaseManagement.models import DB_testcase, DB_module, Article, ArticleCategory
 from TestCaseManagement import settings
 from TestCaseManagement.settings import logger
@@ -124,6 +124,7 @@ def upload_file(request):
     for sheet in sheets:
         # 获取行数
         nrows = sheet.nrows
+        # 这种是没有表头的情况，有表头的话需要：for x in range(1, nrows):
         for x in range(0, nrows):
             # row表示某一行的所有数据，是一个列表
             row = sheet.row_values(x)

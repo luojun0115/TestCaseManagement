@@ -6407,3 +6407,5 @@ INFO 2021-07-24 23:49:52,238 views 243 从前端拿到模块的module_id为：2
 INFO 2021-07-24 23:49:52,240 views 254 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
 INFO 2021-07-24 23:51:14,659 views 243 从前端拿到模块的module_id为：1
 INFO 2021-07-24 23:51:14,662 views 254 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-25 01:31:37,104 views 244 从前端拿到模块的module_id为：1
+INFO 2021-07-25 01:31:37,107 views 255 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
