@@ -14,4 +14,5 @@ urlpatterns = [
     url(r'model_one_add/', views.model_one_add),  # 添加模块
     url(r'module_del/', views.module_del),  # 删除模块
     url(r'case_export/', views.case_export),  # 用例导出
+    url(r'register/', views.register),  # 用例导出
 ]

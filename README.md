@@ -9,8 +9,8 @@ python manage.py  migrate
 python manage.py  createsuperuser
 
 用户名：admin 密码 1qaz2wsx 
-
-
+## 豆瓣镜像
+pip install -i https://pypi.douban.com/simple/
 ## 问题解答
 加博主微信
 ![img.png](博主微信.png)

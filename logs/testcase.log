@@ -6409,3 +6409,39 @@ INFO 2021-07-24 23:51:14,659 views 243 从前端拿到模块的module_id为：1
 INFO 2021-07-24 23:51:14,662 views 254 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
 INFO 2021-07-25 01:31:37,104 views 244 从前端拿到模块的module_id为：1
 INFO 2021-07-25 01:31:37,107 views 255 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品>]>
+INFO 2021-07-25 12:44:47,272 views 244 从前端拿到模块的module_id为：1
+INFO 2021-07-25 12:44:47,274 views 255 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-25 12:44:48,971 views 31 ===========目前正在导出的模块是：登录============
+INFO 2021-07-25 12:44:48,972 views 34 ===========Excel增加模块：登录============
+INFO 2021-07-25 12:44:48,973 views 49 ===========导出模块：登录 成功============
+INFO 2021-07-25 12:45:09,432 views 244 从前端拿到模块的module_id为：1
+INFO 2021-07-25 12:45:09,434 views 255 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-25 12:45:13,828 views 244 从前端拿到模块的module_id为：1
+INFO 2021-07-25 12:45:13,829 views 255 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-25 12:47:18,291 views 244 从前端拿到模块的module_id为：1
+INFO 2021-07-25 12:47:18,293 views 255 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-07-25 12:47:24,535 views 244 从前端拿到模块的module_id为：1
+INFO 2021-07-25 12:47:24,538 views 255 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-08-03 23:23:08,791 views 244 从前端拿到模块的module_id为：1
+INFO 2021-08-03 23:23:09,641 views 255 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-08-03 23:23:15,122 views 244 从前端拿到模块的module_id为：1
+INFO 2021-08-03 23:23:15,123 views 255 取出所有的模块为：<QuerySet [<DB_module: 登录>]>
+INFO 2021-08-03 23:23:25,659 views 99 ====添加模块的名称：注册===
+INFO 2021-08-03 23:23:25,682 views 244 从前端拿到模块的module_id为：1
+INFO 2021-08-03 23:23:25,684 views 255 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>]>
+INFO 2021-08-03 23:23:39,731 views 99 ====添加模块的名称：商品管理===
+INFO 2021-08-03 23:23:39,743 views 244 从前端拿到模块的module_id为：1
+INFO 2021-08-03 23:23:39,746 views 255 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品管理>]>
+INFO 2021-08-03 23:23:44,425 views 99 ====添加模块的名称：权限模块===
+INFO 2021-08-03 23:23:44,479 views 244 从前端拿到模块的module_id为：1
+INFO 2021-08-03 23:23:44,481 views 255 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品管理>, <DB_module: 权限模块>]>
+INFO 2021-08-03 23:23:50,784 views 99 ====添加模块的名称：用户模块===
+INFO 2021-08-03 23:23:50,801 views 244 从前端拿到模块的module_id为：1
+INFO 2021-08-03 23:23:50,803 views 255 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品管理>, <DB_module: 权限模块>, <DB_module: 用户模块>]>
+INFO 2021-08-03 23:24:08,862 views 99 ====添加模块的名称：订单模块===
+INFO 2021-08-03 23:24:08,899 views 244 从前端拿到模块的module_id为：1
+INFO 2021-08-03 23:24:08,901 views 255 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品管理>, <DB_module: 权限模块>, <DB_module: 用户模块>, <DB_module: 订单模块>]>
+INFO 2021-08-04 00:33:53,874 views 202 访问testcase2页面
+INFO 2021-08-04 00:33:53,877 views 213 testcase2页面，没有此分类
+INFO 2021-08-04 22:46:25,622 views 247 从前端拿到模块的module_id为：1
+INFO 2021-08-04 22:46:25,624 views 258 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品管理>, <DB_module: 权限模块>, <DB_module: 用户模块>, <DB_module: 订单模块>]>

@@ -21,6 +21,9 @@ from TestCaseManagement import settings
 from TestCaseManagement.settings import logger
 
 filename = datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
+#注册
+def register(request):
+    return render(request,'templates/register.html')
 
 # 用例导出
 def case_export(request):
