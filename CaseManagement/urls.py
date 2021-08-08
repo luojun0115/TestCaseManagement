@@ -15,4 +15,5 @@ urlpatterns = [
     url(r'module_del/', views.module_del),  # 删除模块
     url(r'case_export/', views.case_export),  # 用例导出
     url(r'register/', views.register),  # 用例导出
+    url(r'imagecode/', views.imagecode),  # 用例导出
 ]

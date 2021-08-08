@@ -16,14 +16,39 @@ from django.shortcuts import render, redirect
 from django.views.decorators.csrf import csrf_exempt
 
 # from CaseManagement.management.commands.export_testcase import AdminReport
+from django_redis import get_redis_connection
+
 from CaseManagement.models import DB_testcase, DB_module, Article, ArticleCategory
 from TestCaseManagement import settings
 from TestCaseManagement.settings import logger
+from libs.captcha.captcha import captcha
 
 filename = datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
-#注册
+
+
+##验证码
+def imagecode(request):
+    uuid = request.GET.get('uuid')
+    print(uuid)
+    if uuid is None:
+        return HttpResponseBadRequest('没有传递uuid')
+        # 3.通过调用captcha 来生成图片验证码（图片二进制和图片内容）
+    text, image = captcha.generate_captcha()
+    # 4.将 图片内容保存到redis中
+    #     uuid作为一个key， 图片内容作为一个value 同时我们还需要设置一个实效
+    # redis_conn = get_redis_connection('default')
+    # key 设置为 uuid
+    # seconds  过期秒数  300秒 5分钟过期时间
+    # value  text
+    # redis_conn.setex('img:%s' % uuid, 300, text)
+    # 5.返回图片二进制
+    return HttpResponse(image, content_type='image/jpeg')
+
+
+# 注册
 def register(request):
-    return render(request,'templates/register.html')
+    return render(request, 'templates/register.html')
+
 
 # 用例导出
 def case_export(request):
