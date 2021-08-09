@@ -15,5 +15,6 @@ urlpatterns = [
     url(r'module_del/', views.module_del),  # 删除模块
     url(r'case_export/', views.case_export),  # 用例导出
     url(r'register/', views.register),  # 注册
-    url(r'imagecode/', views.imagecode),  # 验证码
+    url(r'imagecode/', views.imagecode),  # 图片验证码
+    url(r'smscode/', views.smscode),  # 手机验证码
 ]

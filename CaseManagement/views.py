@@ -19,14 +19,58 @@ from django.views.decorators.csrf import csrf_exempt
 from django_redis import get_redis_connection
 
 from CaseManagement.models import DB_testcase, DB_module, Article, ArticleCategory
+from CaseManagement.utils.response_code import RETCODE
 from TestCaseManagement import settings
 from TestCaseManagement.settings import logger
 from libs.captcha.captcha import captcha
+from libs.yuntongxun.sms import CCP
 
 filename = datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
 
 
-##验证码
+## 获取短信验证码
+# 97e3983411494a7daa0e56f212064954
+def smscode(request):
+    '''
+    1. 验证图片验证码（从redis取到它比对一下）
+    2. 验证上面的参数
+    3. 发送验证码
+    '''
+
+    mobile = request.GET.get('mobile')
+    image_code = request.GET.get('image_code')
+    uuid = request.GET.get('uuid')
+
+    # 验证下参数是否齐全
+    if not all([mobile, image_code, uuid]):
+        return JsonResponse({'code': RETCODE.NECESSARYPARAMERR, 'errmsg': '缺少必要的参数'})
+    # 从redis中获取图片验证码
+    redis_conn = get_redis_connection('default')
+    real_image_code = redis_conn.get('img:%s' % uuid)
+    # 判断验证码是否存在
+    if not real_image_code:
+        return JsonResponse({'code': RETCODE.IMAGECODEERR, 'errmsg': '验证码不存在'})
+    # print(type(real_image_code)) # redis中存储的是byte类型
+    #验证码是否一致
+    if (real_image_code).decode().upper() != (str(image_code)).upper():
+        return JsonResponse({'code': RETCODE.IMAGECODEERR, 'errmsg': '验证码不一致'})
+
+    #发送短信
+    import random
+    numbers=random.randint(111111,999999)
+    redis_conn.setex('sms:%s' % mobile, 60, numbers)
+    print(numbers)
+    # 5.发送短信
+    # 参数1： 测试手机号
+    # 参数2：模板内容列表： {1} 短信验证码   {2} 分钟有效
+    # 参数3：模板 免费开发测试使用的模板ID为1
+    Rr=CCP().send_template_sms(mobile,[numbers,5],1)
+    print(Rr)
+    # 6.返回响应
+    return JsonResponse({'code': RETCODE.OK, 'errmsg': '短信发送成功'})
+
+
+##图片验证码
 def imagecode(request):
     # 获取uuid
     uuid = request.GET.get('uuid')
