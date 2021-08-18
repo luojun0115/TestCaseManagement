@@ -3,7 +3,10 @@ import csv
 import datetime
 import json
 import os
+import re
 import time
+from sqlite3 import DatabaseError
+
 import xlrd
 import xlwt
 from django.contrib import admin
@@ -18,7 +21,7 @@ from django.views.decorators.csrf import csrf_exempt
 # from CaseManagement.management.commands.export_testcase import AdminReport
 from django_redis import get_redis_connection
 
-from CaseManagement.models import DB_testcase, DB_module, Article, ArticleCategory
+from CaseManagement.models import DB_testcase, DB_module, Article, ArticleCategory, User
 from CaseManagement.utils.response_code import RETCODE
 from TestCaseManagement import settings
 from TestCaseManagement.settings import logger
@@ -29,18 +32,10 @@ filename = datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
 
 
 ## 获取短信验证码
-# 97e3983411494a7daa0e56f212064954
 def smscode(request):
-    '''
-    1. 验证图片验证码（从redis取到它比对一下）
-    2. 验证上面的参数
-    3. 发送验证码
-    '''
-
     mobile = request.GET.get('mobile')
     image_code = request.GET.get('image_code')
     uuid = request.GET.get('uuid')
-
     # 验证下参数是否齐全
     if not all([mobile, image_code, uuid]):
         return JsonResponse({'code': RETCODE.NECESSARYPARAMERR, 'errmsg': '缺少必要的参数'})
@@ -50,22 +45,27 @@ def smscode(request):
     # 判断验证码是否存在
     if not real_image_code:
         return JsonResponse({'code': RETCODE.IMAGECODEERR, 'errmsg': '验证码不存在'})
+    # 防止验证码多次使用，故删除
+    try:
+        redis_conn.delete('img:%s' % uuid)
+    except Exception as e:
+        logger.error(e)
     # print(type(real_image_code)) # redis中存储的是byte类型
-    #验证码是否一致
+    # 验证码是否一致
     if (real_image_code).decode().upper() != (str(image_code)).upper():
         return JsonResponse({'code': RETCODE.IMAGECODEERR, 'errmsg': '验证码不一致'})
 
-    #发送短信
+    # 发送短信
     import random
-    numbers=random.randint(111111,999999)
+    numbers = random.randint(111111, 999999)
     redis_conn.setex('sms:%s' % mobile, 60, numbers)
     print(numbers)
     # 5.发送短信
     # 参数1： 测试手机号
     # 参数2：模板内容列表： {1} 短信验证码   {2} 分钟有效
     # 参数3：模板 免费开发测试使用的模板ID为1
-    Rr=CCP().send_template_sms(mobile,[numbers,5],1)
-    print(Rr)
+    # Rr = CCP().send_template_sms(mobile, [numbers, 5], 1)
+    # print(Rr)
     # 6.返回响应
     return JsonResponse({'code': RETCODE.OK, 'errmsg': '短信发送成功'})
 
@@ -91,7 +91,52 @@ def imagecode(request):
 
 # 注册
 def register(request):
-    return render(request, 'templates/register.html')
+    if str(request.method).upper() =='GET':
+        return render(request, 'templates/register.html')
+    if str(request.method).upper() == 'POST':
+        # 获取必须传的参数
+        mobile = request.POST.get('mobile')
+        password = request.POST.get('password')
+        password2 = request.POST.get('password2')
+        smscode = request.POST.get('sms_code')
+
+        # 验证必填参数是否齐全
+        if not all([mobile, password, password2, smscode]):
+            return HttpResponseBadRequest('缺少必传参数')
+
+        if password != password2:
+            return HttpResponseBadRequest('缺少必传参数')
+        # 判断一下手机号是否重复了
+        count = User.objects.filter(mobile=mobile).count()
+        if count != 0:
+            return HttpResponseBadRequest('手机号码重复！')
+
+        # 验证手机号是否合法，否则无法发送短信
+        if not re.match(r'^1[3-9]\d{9}$', mobile):
+            return HttpResponseBadRequest('请输入正确的手机号码')
+
+        #验证密码是否是否符合要求
+        if not re.match(r'^[0-9A-Za-z]{8,20}$', password):
+            return HttpResponseBadRequest('请输入8-20位的密码')
+
+        # 验证短信验证码
+        redis_conn = get_redis_connection('default')
+        sms_code_server = redis_conn.get('sms:%s' % mobile)
+        if sms_code_server is None:
+            return HttpResponseBadRequest('短信验证码已过期')
+        if smscode != sms_code_server.decode():
+            return HttpResponseBadRequest('短信验证码错误')
+
+        # 保存注册数据
+        try:
+            user = User.objects.create_user(username=mobile, mobile=mobile, password=password)
+        except DatabaseError:
+            return HttpResponseBadRequest('注册失败')
+
+        # return render(request, 'templates/testcase.html')
+        return HttpResponseRedirect('/testcase1/')
+
+
 
 
 # 用例导出

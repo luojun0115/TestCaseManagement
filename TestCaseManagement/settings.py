@@ -185,3 +185,7 @@ CACHES = {
 # session由数据库存储改为redis
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 SESSION_CACHE_ALIAS = "session"
+
+
+# 配置信息 为 ‘子应用名.模型类型’
+AUTH_USER_MODEL='CaseManagement.User'

@@ -1,9 +1,9 @@
 from django.db import models
 # Create your models here.
 from django.db import models
-from django.contrib.auth.models import AbstractUser, User
+from django.contrib.auth.models import AbstractUser
 from django.utils import timezone
-
+from django.db import models
 
 class ArticleCategory(models.Model):
     """
@@ -89,3 +89,32 @@ class DB_testcase(models.Model):
     def __str__(self):
         # 测试目的
         return self.t_purpose
+#
+#
+# # 用户信息
+# class User(AbstractUser):
+#
+#     # 电话号码字段
+#     # unique 为唯一性字段
+#     mobile = models.CharField(max_length=20, unique=True,blank=True)
+#
+#     # 修改认证的字段
+#     USERNAME_FIELD = 'mobile'
+#     # 创建超级管理员的需要必须输入的字段
+#     REQUIRED_FIELDS = ['username','email']
+#
+#     # 内部类 class Meta 用于给 model 定义元数据
+#     class Meta:
+#         db_table='tb_user'              #修改默认的表名
+#         verbose_name='用户信息'         # Admin后台显示
+#         verbose_name_plural=verbose_name # Admin后台显示
+
+
+class User(AbstractUser):
+    """用户模型类"""
+    mobile = models.CharField(max_length=11, unique=True, verbose_name='手机号')
+
+    class Meta:
+        db_table = 'tb_users'
+        verbose_name = '用户'
+        verbose_name_plural = verbose_name

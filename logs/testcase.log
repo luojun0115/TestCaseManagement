@@ -6445,3 +6445,7 @@ INFO 2021-08-04 00:33:53,874 views 202 访问testcase2页面
 INFO 2021-08-04 00:33:53,877 views 213 testcase2页面，没有此分类
 INFO 2021-08-04 22:46:25,622 views 247 从前端拿到模块的module_id为：1
 INFO 2021-08-04 22:46:25,624 views 258 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品管理>, <DB_module: 权限模块>, <DB_module: 用户模块>, <DB_module: 订单模块>]>
+INFO 2021-08-18 00:19:27,434 views 361 从前端拿到模块的module_id为：1
+INFO 2021-08-18 00:19:27,499 views 372 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品管理>, <DB_module: 权限模块>, <DB_module: 用户模块>, <DB_module: 订单模块>]>
+INFO 2021-08-18 00:40:01,464 views 361 从前端拿到模块的module_id为：1
+INFO 2021-08-18 00:40:01,480 views 372 取出所有的模块为：<QuerySet [<DB_module: 登录>, <DB_module: 注册>, <DB_module: 商品管理>, <DB_module: 权限模块>, <DB_module: 用户模块>, <DB_module: 订单模块>]>
